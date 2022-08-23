@@ -1,1 +1,88 @@
 /* Navbar Styles */
+.header {
+    position: fixed;
+    background-color: white;
+    width:100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    
+    }
+    .header_container {
+        display: flex;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: 100px;
+    }
+    .header_nav {
+        display: flex;
+        align-items: center;
+        width:80%;
+    }
+    .menu_nav {
+    display: flex;
+    width: 100%;
+    margin-left: 250px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: space-around;
+    }
+    .menu_nav_bloc {
+        display: block;
+        font-size: 12px;
+        font-weight:bolder;
+        text-align: center;
+        text-decoration: none;
+        color: inherit;
+        
+    }
+    .domshadow{
+        box-shadow: rgb(59, 191, 59) 0px 10px 0px 0px;
+        display: block;
+        font-size: 12px;
+        font-weight:bolder;
+        text-align: center;
+        text-decoration: none;
+        color: inherit;
+    }
+     .loginbtn{
+        background-color: teal;
+        border-radius: 36px;
+    width: 100px;
+    height: 30px; 
+    padding-top: 10px;
+    display: block;
+        font-size: 12px;
+        font-weight:bolder;
+        text-align: center;
+        text-decoration: none;
+        color: inherit;
+    
+    }
+    .signbtn{
+    background-color:rgb(59, 191, 59);
+    border-radius: 36px;
+    border: rgb(59, 191, 59) solid 2px;
+    width: 100px;
+    height: 30px; 
+    padding-top: 10px;
+    display: block;
+    font-size: 12px;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;   
+    }
+    #signup{
+        background-color: rgb(59, 191, 59);
+    }
+    .button{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px; 
+    padding-top: 10px;
+    }
