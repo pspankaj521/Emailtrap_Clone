@@ -5,8 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./Styles/loginSignupNavbar.css">
+    <link rel="stylesheet" href="./Styles/login.css">
+    <link rel="stylesheet" href="./Styles/loginSignupFooter.css">
+    <script src="https://kit.fontawesome.com/a7c69f7ec4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Login Page -->
+    <div id="navcont"></div>
+
+    <div id="page-content-container">
+        <div id="page-content">
+            <div id="left-pg-content">
+                <h1 style="padding-left: 25px;">Log In</h1>
+
+                <a href="" class="butn">
+                    <div class="auth-buttons">
+                        <div class="button-prop">
+                            <i class='fab fa-google'></i>
+                        </div>
+                        <div>Use Google account</div>
+                    </div>
+                </a>
+                
+                <a href="" class="butn">
+                    <div class="auth-buttons">
+                        <div class="button-prop">
+                            <i class='fab fa-github'></i>
+                        </div>
+                        <div>Use Github account</div>
+                    </div>
+                </a>
+                
+                <a href="" class="butn">
+                    <div class="auth-buttons">
+                        <div class="button-prop">
+                            <img style="width: 20px; height: 20px;" src="https://img.icons8.com/ios-filled/50/000000/office-365.png"/>
+                        </div>
+                        <div>Use Office 365 account</div>
+                    </div>
+                </a>
+                
+                <!-- <a href=""> -->
+                <div class="auth-buttons" id="hoverChange" style="justify-content: center; border: none;">
+                    
+                    <div>OR</div>
+                </div>
+                <!-- </a> -->
+
+                <label for="" style="padding-left: 25px;">Email</label>
+                <input type="text" id="email">
+
+                <a href="" class="butn">
+                    <div class="auth-buttons" id="nextBtn">
+                        <div>Next</div>
+                    </div>
+                </a>
+
+                <p style="text-align: center;">Haven't received the confirmation email yet?</p>
+                <a href="" style="text-align: center; margin-top: -20px;">Resend the email</a>
+            </div>
+
+            <div id="right-pg-content">
+                <img src="https://assets.mailtrap.io/packs/assets/landing/login-fb2fcb15feb36d8e9356.svg" alt="">
+                <p style="text-align: center; font-weight: bold; font-size: 18px;">Set up a new inbox for each test server, so that it is clear where every email was sent from.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="footcont"></div>
 </body>
 </html>
+
+<script type="module">
+    import navbar from './Scripts/loginSignupNavbar.js';
+    let container = document.getElementById('navcont');
+    container.innerHTML = navbar();
+
+    import footer from './Scripts/loginSignupFooter.js';
+    let con = document.getElementById('footcont');
+    con.innerHTML = footer();
+</script>
+
+<script type="module">
+    
+</script>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+        if (document.documentElement.scrollTop > 10) {
+            document.getElementById("container").className = "test";
+        } else {
+            document.getElementById("container").className = "";
+        }
+    }
+</script>
+
