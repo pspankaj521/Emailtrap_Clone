@@ -1,0 +1,263 @@
+body {
+  font-family: sans-serif;
+  /* border: 1px solid red; */
+  height: 100%;
+}
+
+/* sec-1 css */
+#sec_1 {
+  border: 1px solid red;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sec_1 > div {
+  /* border: 1px solid black; */
+  line-height: 70px;
+}
+
+#sec_1 > div > h1 {
+  font-size: 42px;
+}
+
+#sec_1 > div > p {
+  font-size: 22px;
+  line-height: 40px;
+}
+
+#sec_1 > div:nth-child(2) > img {
+  padding: 40px 80px;
+}
+
+#sec_1 > div:nth-child(1) {
+  padding: 20px 140px;
+}
+
+#sec_1 > div:nth-child(1) > button {
+  padding: 15px 22.5px;
+  background-color: #22d172;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+/* sec-2 css */
+body > h1 {
+  text-align: center;
+}
+
+#sec_2 {
+  border: 1px solid black;
+  width: 90%;
+  margin: auto;
+}
+
+/* container-1 in sec-2 */
+#container1 {
+  /* border: 1px solid red; */
+}
+
+.sub {
+  /* border: 1px solid green; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 0px 70px;
+  margin-bottom: 20px;
+}
+
+.sub > div:nth-child(1) {
+  /* border: 10px solid purple; */
+  padding: 0px 70px;
+}
+.sub > div:nth-child(1) > h1 {
+  font-size: 32px;
+}
+.sub > div:nth-child(1) > p {
+  font-size: 14px;
+  line-height: 25px;
+}
+.sub > div:nth-child(2) {
+  /* border: 10px solid purple; */
+  line-height: 25px;
+  padding: 0px 70px;
+}
+.sub > div:nth-child(2) > h1 {
+  font-size: 32px;
+  line-height: 50px;
+}
+.sub > div:nth-child(2) > p {
+  font-size: 14px;
+  line-height: 25px;
+}
+.sub > div:nth-child(2) > img {
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+/* container-2 in sec-2 */
+#container2 {
+  background-color: rgb(245, 241, 241);
+}
+
+/* Sec-3 css */
+#contactus_banner {
+  border: 1px solid black;
+  background-color: #fcb900;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  padding: 20px 35px;
+  border-radius: 10px;
+}
+
+#contactus_banner > p {
+  padding: 0px 0px 24px 0px;
+  line-height: 25px;
+}
+
+#contactus_banner > #contactus {
+  background-color: #1a2e44;
+  color: #f9c273;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+#contactus_banner > #contactus:hover {
+  transition-duration: 1s; /* learned new*/
+  background-color: #abb8c3;
+  color: black;
+}
+
+/* testimonials css */
+
+#testimonials {
+  border: 1px solid black;
+  width: 70%;
+  margin: auto auto 100px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2%;
+  padding: 40px;
+}
+
+#testimonials > div {
+  /* border: 1px solid red; */
+  margin: auto;
+  height: 230px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#testimonials > div > img:nth-child(1) {
+  /* border: 1px solid red; */
+  height: 50px;
+  display: block;
+  position: absolute;
+  margin-top: -5%;
+}
+
+#testimonials > div > img:last-child {
+  /* border: 1px solid red; */
+  display: block;
+  height: 70px;
+  position: absolute;
+  margin-left: 27%;
+  margin-top: 0%;
+  cursor: pointer;
+}
+
+#testimonials > div > p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+#testimonials > div > p:last-child {
+  font-weight: bold;
+  margin-top: 0px;
+}
+#testimonials > div > h1 {
+  font-weight: bold;
+  margin-bottom: -10px;
+  font-size: 18px;
+}
+
+/* FAQs css */
+
+#faq {
+  border: 5px solid black;
+  width: 70%;
+  margin: auto auto 100px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2%;
+  padding: 40px;
+}
+
+#faq > div {
+  /* border: 1px solid red; */
+  margin: auto;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#faq > div > img {
+  height: 50px;
+  display: block;
+  position: absolute;
+  margin-top: -3%;
+}
+
+#faq > div > h1 {
+  font-size: 18px;
+  line-height: 25px;
+  margin: 20px;
+}
+#faq > div > p {
+  font-size: 14px;
+  line-height: 25px;
+  margin: 20px;
+}
+
+#faq > div > p > a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* learned new- underline effect on hovering*/
+#faq > div > p > a {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+#faq > div > p > a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+#faq > div > p > a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
