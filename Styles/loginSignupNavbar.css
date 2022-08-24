@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    position: fixed;
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 10px;
+    z-index: 100;
+    /* background-color: #DEDEDE; */
+    top: 0px;
+    overflow: hidden;
+    z-index: 10;
+    background-color: white;
+}
+
+#navbar {
+    /* border: 2px solid blue; */
+    width: 80%;
+    margin: auto;
+    /* font-size: 30px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    /* position: fixed;
+    width: 100vw;
+    height: 50px;
+    background-color: #DEDEDE;
+    transition: 0.2s;
+    display: flex; */
+}
+
+.test {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#buttons {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#buttons > a:nth-child(1) {
+    /* color: #1a2e44; */
+    color: #1a2e44;
+    border: 1px solid #1a2e44;
+}
+
+#buttons > a:nth-child(1):hover {
+    background-color: #4c83ee;
+    color: white;
+    border: 1px solid #4c83ee;
+}
+
+#buttons > a:nth-child(2) {
+    color: white;
+    background-color: #22d172;
+}
+
+#buttons > a:nth-child(2):hover {
+    background-color: #45e890;
+    color: white;
+}
