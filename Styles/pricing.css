@@ -1,0 +1,166 @@
+body {
+  font-family: sans-serif;
+}
+
+/* section-1 css */
+#sec1 {
+  /* border: 1px solid black; */
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+
+#sec1 > div:first-child {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+#sec1 > #container1 {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+}
+
+#sec1 > #container1 > .box {
+  border: 1px solid #22d172;
+}
+
+#sec1 > #container1 > .box > div {
+  /* border: 1px solid green; */
+  text-align: center;
+}
+
+/* price div of both containers in both sections*/
+#sec1 > #container1 > .box > div > .price, #container2>div:last-child > .box > div > .price{
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  color: #22d172;
+}
+
+/* price($ 10 99) design - combined Sec-2 button css*/
+#sec1 > #container1 > .box > div > .price > h1, #container2>div:last-child > .box > div > .price > h1 {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* para css in box */
+#sec1 > #container1 > .box > div:nth-child(2) {
+  text-align: start;
+  padding: 20px;
+  height: 250px;
+}
+
+/* button in boxes */
+#sec1 > #container1 > .box > div:nth-child(3),#container2>div:last-child > .box > div:nth-child(2) {
+  padding: 20px;
+}
+
+#sec1 > #container1 > .box > div:nth-child(3) > a > button, #container2>div:last-child > .box > div:nth-child(2) > a > button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #22d172;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+/* first box button black */
+#sec1 > #container1 > .box:first-child > div:nth-child(3) > a > button {
+  background-color: black;
+}
+
+/* section-2 css */
+#sec2 {
+  border: 1px solid black;
+  background-color: rgb(233, 230, 230);
+  width: 100%;
+  margin: 70px auto auto auto;
+  height: auto;
+}
+
+/* sec2 heading */
+#sec2 > h1 {
+  text-align: center;
+}
+
+/* sec2 container2 */
+#sec2 > #container2 {
+  border: 1px solid black;
+  width: 90%;
+  margin: auto;
+  height: auto;
+}
+
+/* container2 head-row */
+#sec2 > #container2 > #head {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+}
+
+#sec2 > #container2 > #head > div {
+  border: 1px solid brown;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0px;
+}
+
+/* main rows css */
+#sec2 > #container2 > .ROW > .row {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* text-align: center; */
+}
+
+/* ALERT-1 */
+#sec2 > #container2 > .ROW > .row > div {
+  border: 1px solid brown;
+  font-size: 16px;
+  /* font-weight: bold; */
+  padding: 20px 0px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* dont want center alignment in firsr columns - this should not be above ALERT-1 */
+#sec2 > #container2 > .ROW > .row > div:first-child {
+  text-align: left;
+}
+
+
+#sec2 > #container2 > .ROW > .row > div:first-child+div {
+  background-color: rgb(234, 234, 244);
+}
+
+#sec2 > #container2 > .ROW > .row > .tickicon > img {
+  /* background-color: yellow; */
+  height: 18px;
+  display: block;
+  margin: auto;
+}
+
+/* subrow-css */
+#sec2 > #container2 > .ROW > .subrow {
+  /* background-color: yellow; */
+  border: 1px solid black;
+  display: none;
+}
+
+/* LAST ROW - css */
+#container2>div:last-child{
+  /* background-color: yellow; */
+}
+
+/* Note- button css is combined with sec-1 button css*/
+
+
