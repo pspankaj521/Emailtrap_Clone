@@ -1,0 +1,542 @@
+#container {
+    background-color: #f6f6f7;
+}
+
+#h1 {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.text {
+    width: 40%;
+    margin: auto;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 540;
+    text-align: center;
+}
+
+.signup_button {
+    color: white;
+    background-color: rgb(59, 191, 59);
+    border-radius: 10px;
+    border: rgb(59, 191, 59) solid 2px;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    display: block;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.logo {
+    display: flex;
+    gap: 55px;
+    padding-top: 60px;
+    justify-content: center;
+}
+
+.logo img {
+    height: 28px;
+}
+
+.video_img {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.text-center {
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+    font-size: 30px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(5, 5, 37);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container_first {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 70%;
+    margin: auto;
+    /* border: 2px solid red; */
+
+}
+
+/* .col{
+    display: flex;
+} */
+
+.container_text-center {
+    display: flex;
+    padding: 15px;
+    /* border: 2px solid green; */
+}
+
+.container_text-center1 {
+    display: flex;
+
+}
+
+.container_text-center2 {
+    display: flex;
+
+}
+
+.container_text-center3 {
+    display: flex;
+
+}
+
+.container_text-center4 {
+    display: flex;
+
+}
+
+.container_text-center5 {
+    display: flex;
+
+}
+
+.col>h3 {
+    font-size: 16px;
+    width: 75%;
+    padding-left: 22px;
+    font-family: sans-serif;
+    color: rgb(50, 49, 49);
+    /* border: 2px solid green; */
+}
+
+.col>.c-mt-3 {
+    /* border: 2px solid red; */
+    width: 90%;
+    font-size: 13px;
+    padding-left: 22px;
+    color: rgb(43, 42, 42);
+    line-height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#setup {
+    margin-top: 100px;
+}
+
+.setup_h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 0%;
+    color: rgb(5, 5, 37);
+    padding-top: 70px;
+}
+
+.setup_h1>p {
+    font-size: 14px;
+}
+
+#setupcont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: auto;
+    padding-bottom: 45px;
+}
+
+.entry-content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: Georgia, serif; */
+    font-size: 15px;
+    color: rgb(46, 45, 45);
+    padding-top: 25px;
+    line-height: 30px;
+    width: 120%;
+}
+
+.conatiner_hd {
+    padding-top: 45px;
+}
+
+.mailtrap_h1 {
+    /* border: 1px solid red; */
+    width: 35%;
+    margin: auto;
+}
+
+.mailtrap_h1>h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(5, 5, 37);
+}
+
+.hdimg {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.tablecontainer {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding-top: 25px;
+    /* border: 1px solid red; */
+}
+
+.dev {
+    /* border: 1px solid red; */
+    padding-left: 20px;
+    font-family: sans-serif;
+    color: rgb(5, 5, 37);
+}
+
+.developers>ul {
+    /* border: 1px solid red; */
+    line-height: 25px;
+}
+
+.developers>ul>li {
+    position: static;
+    top: 15px;
+}
+
+.qas>ul {
+    /* border: 1px solid red; */
+    line-height: 25px;
+}
+
+.qas>ul>li {
+    position: static;
+    top: 15px;
+}
+
+.marketers>ul {
+    /* border: 1px solid red; */
+    line-height: 25px;
+}
+
+.marketers>ul>li {
+    position: static;
+    top: 15px;
+}
+
+.dev {
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 0.8em;
+}
+
+ul li:before {
+    content: "•";
+    font-size: 170%;
+    /* or whatever */
+    padding-right: 5px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: rgb(59, 191, 59);
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1em;
+}
+
+.slidercontainer {
+    height: 600px;
+    margin-top: 80px;
+    padding-top: 70px;
+    /* background-color: #fff; */
+}
+
+.slidercontainer1 {
+    display: flex;
+    gap: 600px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.slidercontainer1:hover {
+    visibility: visible;
+}
+
+.divcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 300px;
+    /* border: 2px solid red; */
+}
+
+.divcontainer2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 60px;
+    /* border: 2px solid red; */
+}
+
+.divcontainer3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 60px;
+    /* border: 2px solid red; */
+}
+
+.tweeter {
+    /* border: 1px solid red; */
+    width: 465px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.single-testimonial__icon {
+    position: relative;
+    right: -35px;
+    bottom: 25px;
+}
+
+.d-flex {
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+
+}
+
+.d-flex>a {
+    color: grey;
+    font-size: 13px;
+    padding-top: 23px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.entrytw {
+    /* border: 1px solid red; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0px 20px;
+    color: rgb(5, 5, 37);
+
+
+}
+
+.single-tweeter__link {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    padding-left: 20px;
+    color: gray;
+}
+
+.sliderbtn {
+    position: relative;
+    bottom: 400px;
+    display: flex;
+
+}
+
+.lArrow {
+    padding-left: 180px;
+    padding-top: 50px;
+}
+
+.rArrow {
+    position: absolute;
+    top: 40px;
+    padding-left: 90%;
+
+}
+
+.headindt {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+
+.headindt>h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(5, 5, 37);
+}
+
+.imageconatiner {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.imageconatiner>img {
+    width: 67px;
+    height: 34px;
+}
+
+.containerhelpsection {
+    background-color: #f6f6f7;
+    margin-top: 150px;
+}
+
+.containerh {
+    padding-top: 60px;
+    padding-bottom: 90px;
+
+}
+
+.faq {
+    padding-top: 80px;
+}
+
+.faq>h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(51, 51, 71);
+}
+
+.helpcon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    margin: auto;
+    gap: 45px 25px;
+    padding-left: 80px;
+
+}
+
+.single-faq {
+    /* border: 1px solid red; */
+    width: 465px;
+    height: 220px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.single-faq>h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    width: 80%;
+    margin-top: -20px;
+    color: rgb(51, 51, 71);
+    ;
+}
+
+.entry-contentp {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 35px;
+}
+
+.single-faq__icon {
+    height: 55px;
+    width: 55px;
+    position: relative;
+    bottom: 50px;
+}
+
+.createaccount {
+    height: 500px;
+    width: auto;
+    margin-top: 20px;
+    background-color: rgb(20, 68, 85);
+}
+
+.createaccount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.createaccount_img>img {
+    height: 650px;
+    width: 700px;
+    margin-top: -30px;
+}
+
+.signuppage {
+    margin: auto;
+}
+
+.signuppage>h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 90px;
+}
+
+.signheading>h2 {
+    color: #fff;
+    font-size: 65px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    margin-top: -25px;
+}
+
+.signup_btn {
+    color: white;
+    background-color: rgb(59, 191, 59);
+    border-radius: 10px;
+    border: rgb(59, 191, 59) solid 2px;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-top: -35px;
+    padding-top: 10px;
+    display: block;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: inherit;
+
+}
