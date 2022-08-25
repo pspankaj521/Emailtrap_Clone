@@ -1,0 +1,1 @@
+{"version":3,"sources":["navbar.js"],"names":["document","querySelector","innerHTML"],"mappings":";;AACA;;;;AADA;AAEAA,QAAQ,CAACC,aAAT,CAAuB,SAAvB,EAAkCC,SAAlC,GAA4C,yBAA5C","sourcesContent":["// Navbar script\r\nimport navbar from \"../components/navbar.js\";\r\ndocument.querySelector(\"#navbar\").innerHTML=navbar()"],"file":"navbar.dev.js"}
