@@ -43,3 +43,7 @@
 .give-gap {
     margin-top: 0px;
 }
+
+.give-gap:hover {
+    color: #566583;
+}

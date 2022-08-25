@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mailtrap - Safe Email Testing</title>
     <link rel="stylesheet" href="./Styles/loginSignupNavbar.css">
     <link rel="stylesheet" href="./Styles/login.css">
     <link rel="stylesheet" href="./Styles/loginSignupFooter.css">
+    <link rel="stylesheet" href="./Styles/signup.css">
     <script src="https://kit.fontawesome.com/a7c69f7ec4.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -54,13 +55,44 @@
                 <!-- </a> -->
 
                 <a href="" class="butn">
-                    <div class="auth-buttons" id="nextBtn">
-                        <div>Sign Up With Your Email</div>
+                    <div class="auth-buttons nextBtn" id="signUpEmBtn">
+                        <div style="text-align: center;">Sign Up With Your Email</div>
                     </div>
                 </a>
 
-                <div class="auth-text" style="display: flex; justify-content:center;border: none; margin-left: 20px;">
-                    <p style="text-align: center; padding: 0px 25px; line-height: 24px;">By creating a Mailtrap account, you agree to our <a href="" style="color: #4c83ee; font-weight: 100;">Terms of Service</a> and <a href=""  style="color: #4c83ee; font-weight: 100;"> Privacy Policy.</a> We'll occasionally send you account related emails.</p>
+                <div class="pannel" id="pann">
+                    <!-- <div id="passDiv">
+                        <label for="">Password</label>
+                        <a href="" style="text-decoration: none; font-weight: 100; padding-right: 0px;">Forgot Password?</a>
+                    </div> -->
+                    <label for="" style="padding-left: 25px;">Email</label><br>
+                    <input type="text" style="margin-top: 8px;" id="email"><br><br>
+                    
+                    <label for="" style=" padding-left: 25px;">Password</label><br>
+                    <input id="password" style="margin-top: 8px;" type="password" name="" id=""><br>
+                    <br>
+            
+                    <!-- <div id="remCheckBox">
+                        <input type="checkbox" style="padding: 5px" name="" id=""><label for="">Remember me</label>
+                    </div> -->
+                    
+                    <br>
+
+                    <div style=" width: 80%; text-align: center;">
+                        <p >You will receive the confirmation email after submitting this form.</p>
+                    </div>
+
+                    <a href="" class="butn">
+                        <div class="auth-buttons nextBtn" style="width: 75%;margin-left: 15px; ">
+                            <div >Sign Up</div>
+                        </div>
+                    </a>
+            
+                    <!-- <button id="loginBtn">Log In</button> -->
+                </div>
+
+                <div class="auth-text" style="display: flex; justify-content:center; border: none; margin-left: 20px; margin-top: -20px;">
+                    <div style="width: 85%; margin-left: -40px; text-align: center; line-height: 24px;">By creating a Mailtrap account, you agree to our <a href="" style="color: #4c83ee; font-weight: 100;">Terms of Service</a> and <a href=""  style="color: #4c83ee; font-weight: 100;"> Privacy Policy.</a> We'll occasionally send you account related emails.</div>
                 </div>
 
                 
@@ -113,3 +145,14 @@
     }
 </script>
 
+<script>
+    let acc = document.getElementById('signUpEmBtn');
+    acc.addEventListener('click', function(){
+        event.preventDefault();
+
+        document.getElementById('signUpEmBtn').style.display = 'none';
+        let pannel = document.getElementById('pann');
+        pannel.style.display = 'block';
+        // console.log(document.getElementById('email').value);
+    });
+</script>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mailtrap - Safe Email Testing</title>
     <link rel="stylesheet" href="./Styles/loginSignupNavbar.css">
     <link rel="stylesheet" href="./Styles/login.css">
     <link rel="stylesheet" href="./Styles/loginSignupFooter.css">
@@ -56,26 +56,52 @@
                 <label for="" style="padding-left: 25px;">Email</label>
                 <input type="text" id="email">
 
-                <a href="" class="butn">
-                    <div class="auth-buttons" id="nextBtn">
+                <a href="" class="butn" id="nextBtn">
+                    <div class="auth-buttons nextBtn" >
                         <div>Next</div>
                     </div>
                 </a>
 
-                <p style="text-align: center;">Haven't received the confirmation email yet?</p>
-                <a href=""   style="color: #4c83ee; text-align: center; margin-top: -20px;">Resend the email</a>
+                <div class="pannel" id="pann">
+                    <div id="passDiv">
+                        <label for="">Password</label>
+                        <a href="" style="text-decoration: none; font-weight: 100; padding-right: 0px;">Forgot Password?</a>
+                    </div>
+                    
+                    <input id="password" style="margin-top: 8px;" type="password" name="" id=""><br>
+                    <br>
+            
+                    <div id="remCheckBox">
+                        <input type="checkbox" style="padding: 5px" name="" id=""><label for="">Remember me</label>
+                    </div>
+                    
+                    <br>
+
+                    <a href="" class="butn">
+                        <div class="auth-buttons nextBtn" style="width: 75%;margin-left: 15px; ">
+                            <div >Log In</div>
+                        </div>
+                    </a>
+            
+                    <!-- <button id="loginBtn">Log In</button> -->
+                </div>
+
+                <div style=" width: 80%; text-align: center;">
+                    <p >Haven't received the confirmation email yet?</p>
+                    <a href=""   style="color: #4c83ee; text-align: center; margin-top: -20px;">Resend the email</a>
+                </div>
+                
             </div>
 
             <div id="right-pg-content">
                 <img src="https://assets.mailtrap.io/packs/assets/landing/login-fb2fcb15feb36d8e9356.svg" alt="">
-                <p style="text-align: center; font-weight: bold; font-size: 18px;">Set up a new inbox for each test server, so that it is clear where every email was sent from.</p>
+                <p style="text-align: center; font-weight: bold; font-size: 18px; padding-right: 65px;">Mailtrap renders emails in the same way browsers do, meaning that no additional stylesheet or CSS reset is applied.</p>
             </div>
         </div>
     </div>
 
     <div id="footcont"></div>
 
-    <a href="https://www.linkedin.com/company/mailtrap/"></a>
     <a href=""></a>
 </body>
 </html>
@@ -104,5 +130,22 @@
             document.getElementById("container").className = "";
         }
     }
+
+    
+
 </script>
 
+<script>
+    let acc = document.getElementById('nextBtn');
+    acc.addEventListener('click', function(){
+        event.preventDefault();
+        if(document.getElementById('email').value !== ''){
+            document.getElementById('email').disabled = true;
+            document.getElementById('email').style.color = 'green'
+            document.getElementById('nextBtn').style.display = 'none';
+            let pannel = document.getElementById('pann');
+            pannel.style.display = 'block';
+            // console.log(document.getElementById('email').value);
+        }
+    });
+</script>
