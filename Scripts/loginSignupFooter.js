@@ -12,39 +12,39 @@ function footer() {
                 <div>
                     <h3>Mailtrap</h3>
                     <ul class="listing-style">
-                        <a href="" class="list-look">
+                        <a href="./pricing.html" class="list-look">
                             <li class="give-gap">Pricing</li>
                         </a>
-                        <a href="" class="list-look">
+                        <a href="https://mailtrap.io/changelog" class="list-look">
                             <li class="give-gap">Changelog</li>
                         </a>
-                        <a href="" class="list-look">
+                        <a href="http://status.mailtrap.info/" class="list-look">
                             <li class="give-gap">Status</li>
                         </a>
-                        <a href="" class="list-look">
+                        <a href="https://mailtrap.io/terms/" class="list-look">
                             <li class="give-gap">Terms of Service</li>
                         </a>
-                        <a href="" class="list-look">
+                        <a href="https://mailtrap.io/privacy/" class="list-look">
                             <li class="give-gap">Privacy Policy</li>
                         </a>
-                        <a href="" class="list-look">
+                        <a href="https://mailtrap.io/navigational-info/" class="list-look">
                             <li class="give-gap">Navigational Information</li>
                         </a>
-                        <a href="" class="list-look">
-                        <li class="give-gap">DPA</li>
+                        <a href="https://mailtrap.io/dpa/" class="list-look">
+                            <li class="give-gap">DPA</li>
                         </a>
                     </ul>
                 </div>
                 <div>
                     <h3>Railsware Experience</h3>
                     <ul class="listing-style">
-                        <a href="" class="list-look">
+                        <a href="./blog.html" class="list-look">
                             <li class="give-gap">Railsware Blog</li>
                         </a>
-                        <a href="" class="list-look">
+                        <a href="https://www.coupler.io/" target="_blank" class="list-look">
                             <li class="give-gap">Coupler.io</li>
                         </a>
-                        <a href="" class="list-look">
+                        <a href="https://jirachecklist.com/" target="_blank" class="list-look">
                             <li class="give-gap">Smart Checklist for Jira</li>
                         </a>
                     </ul>

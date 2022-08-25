@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 #page-content-container {
@@ -39,6 +40,15 @@
     justify-content: center;
 }
 
+#passDiv {
+    /* border: 1px solid red;  */
+    width: 80%; 
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .auth-text {
     padding:0px;
     width: 80%;
@@ -67,23 +77,35 @@
     border: none;
 }
 
-#email {
-    width: 74%;
+#email, #password {
+    width: 75%;
     padding: 15px;
     border-radius: 10px;
     margin-left: 15px;
     border: 1px solid rgb(167, 164, 164);
 }
 
+#remCheckBox {
+    /* border: 1px solid red; */
+    width: 80%; 
+    padding: 0px 15px;
+    display: flex;
+    gap: 10px;
+}
 
 
-#nextBtn {
+
+.nextBtn {
     background-color: #22d172;
     color: white;
     border: none;
     justify-content: center;
     font-weight: bold;
     padding: 15px;
+}
+
+.nextBtn:hover {
+    background-color: #17b65f;
 }
 
 #hoverChange:hover {
@@ -93,4 +115,28 @@
 
 #right-pg-content {
     padding-top: 80px;
+}
+
+.pannel {
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin-top: -40px;
+}
+
+@media all and ((min-width: 320px) and (max-width: 768px)) {
+    #page-content {
+        width: 90%;
+        margin: auto;
+        /* border: 1px solid blueviolet; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap:160px;
+        /* justify-content: sp; */
+        padding-bottom: 80px;
+    }
+
+    #right-pg-content {
+        display: none;
+    }
 }

@@ -3,11 +3,14 @@ function navbar() {
     <div id="container">
         <div id="navbar">
             <div id="logo">
-                <img src="https://assets.mailtrap.io/packs/assets/landing/logo-10f83f473022ef53d82e.svg" alt="">
+                <a href="./index.html">
+                    <img src="https://assets.mailtrap.io/packs/assets/landing/logo-10f83f473022ef53d82e.svg" alt="">
+                </a>
+                
             </div>
             <div id="buttons">
-                <a href="">Log In</a>
-                <a href="">Sign Up</a>
+                <a href="./login.html">Log In</a>
+                <a href="./signup.html">Sign Up</a>
             </div>
         </div>
     </div>`;
