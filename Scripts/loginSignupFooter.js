@@ -57,9 +57,15 @@ function footer() {
                         </a>
                     </ul>
                     <div id="social-media">
-                        <i class='fab fa-facebook-square'></i>
-                        <i class='fab fa-twitter-square'></i>
-                        <i class='fab fa-linkedin'></i>
+                        <a href="https://www.facebook.com/Mailtrap">
+                            <i style="color: #1877f2; font-size: 30px;" class='fab fa-facebook'></i>
+                        </a>
+                        <a href="https://twitter.com/mailtrap">
+                            <i style="color: #00ACEE; font-size: 30px;" class='fab fa-twitter'></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/mailtrap/">
+                            <i style="color: #0E76A8; font-size: 30px;" class='fab fa-linkedin'></i>
+                        </a>
                     </div>
                 </div>
             </div>
