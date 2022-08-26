@@ -1,0 +1,1 @@
+{"version":3,"sources":["footer.js"],"names":["document","getElementById","innerHTML"],"mappings":";;AACA;;;;AADA;AAEAA,QAAQ,CAACC,cAAT,CAAwB,QAAxB,EAAkCC,SAAlC,GAA4C,yBAA5C","sourcesContent":["// Footer Script\r\nimport footer from \"../components/footer.js\";\r\ndocument.getElementById(\"footer\").innerHTML=footer();"],"file":"footer.dev.js"}
