@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #parentCrauser {
@@ -14,9 +15,8 @@
     color: #202C45;
 }
 
-
 #crauser {
-    width: 60%;
+    width: 80%;
     height: 400px;
     margin: auto;
     /* border: 1px solid red; */
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    gap: 30px;
 }
 
 #reverse, #forward {
@@ -37,21 +37,27 @@
 }
 
 .fas {
-    font-size: 30px;
+    font-size: 20px;
 }
 
-#detCont {
+.detCont {
     /* border: 1px solid blue; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    height: 250px;
+    height: 300px;
     width: 600px;
     border-radius: 10px;
     display: grid;
-    align-items: center;
-    padding: 50px 50px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 60px 120px 20px;
+    /* align-items: center; */
+    padding: 50px;
     background-color: white;
+    /* align-items: ; */
 }
 
+.detCont>div{
+    /* border: 1px solid red; */
+}
 
 .linkTag {
     color: #abb8c3;
