@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#parentPlan {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 50px;
+}
+
+.mainChild {
+    /* height: 300px; */
+    /* border: 1px solid blue; */
+    display: grid;
+    gap: 5px;
+    /* grid-template-columns: repeat(1, 1fr); */
+    /* align-items: center; */
+}
+
+.mainChildUpper, .mainChildLower {
+    /* height: ; */
+    /* border: 1px solid teal; */
+    height: 20px;
+}
+
+.mainChildUpper {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.secondaryChild {
+    /* height: 400px; */
+    width: 100%;
+    border: 1px solid #F1EFDC;
+
+}
+
+.planDetails {
+    /* border: 1px solid red; */
+    display: grid;
+    /* justify-content: center; */
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.planFor {
+    /* border: 1px solid blue; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    padding-bottom: 0px;
+    background-color: #f9f9f7;
+}
+
+.buyBtn {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.buyBtn > button {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #22d172;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.buyBtn > button:hover {
+    background-color: #4bdf8e;
+}
+
+#tryFree {
+    background-color: #1a2e44;
+}
+
+#tryFree:hover {
+    background-color: #285a90;
+}
