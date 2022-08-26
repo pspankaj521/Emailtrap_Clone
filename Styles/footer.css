@@ -1,1 +1,71 @@
 /* Footer Styles */
+#footer {
+    background-color: #F9F9F7;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#footer-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    gap: 15px;
+    margin: auto; 
+    margin-top: -145px;
+    padding-left: 80px;
+ }
+ .mailtrap>h3{
+    padding-left: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+ }
+ .railsware>h3{
+    padding-left: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+ }
+ .contact>h3{
+    padding-left: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+ }
+ .mailtrap>ol{
+    list-style: none;  
+ }
+ .listing-style>a>li{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(19, 19, 20);
+    line-height: 35px;
+    font-size: 14px;
+    
+ }
+ .railsware>ol{
+    list-style: none;
+ }
+ .contact>ol{
+    list-style: none;
+ }
+ #social-media {
+    display: flex;
+    gap:15px;
+    padding-left: 35px;
+ } 
+ .rw-logo{
+    padding-left: 100px;
+ }
+ .rw-logo:hover{
+    color: rgb(74, 234, 74);
+ }
+ .copyright{
+    padding-left: 72%;
+    margin-top: -70px;
+ }
+  .list-look { 
+    text-decoration: none;
+  }  
+ .give-gap {
+    margin-top: 0px;
+}
+
+.give-gap:hover {
+    color: rgb(74, 234, 74);
+} 
