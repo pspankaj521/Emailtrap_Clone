@@ -1,1 +1,60 @@
 /* Footer Styles */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#footer {
+    background-color: #F9F9F7;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#footer > div {
+    /* border: 1px solid; */
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+
+#footer-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#social-media {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#social-media > i {
+    font-size: 20px;
+}
+
+.listing-style {
+    list-style: none; 
+    padding-left: 0px;
+}
+
+.list-look {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    /* margin-top: 40px; */
+    /* padding-top: 20px; */
+}
+
+.give-gap {
+    margin-top: 0px;
+}
+
+.give-gap:hover {
+    color: #00d084;
+}
+
+.listing-style-new {
+    line-height: 40px;
+}
