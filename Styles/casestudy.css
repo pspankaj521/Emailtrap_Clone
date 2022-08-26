@@ -16,15 +16,18 @@
     justify-content: center;
     margin-top: 80px;
 }
-#btn>button{
+.funcDiv {
     margin-right: 20px;
     padding: 10px  20px;
     border-radius: 10px;
     background-color: white;
+    border: 1px solid #1a2e44;
+    color: #1a2e44;
+    font-weight: bold;
 }
-#btn>button:hover{
-  color: white;
-  background-color: navy;
+.funcDiv:hover{
+  color: #27517f;
+  /* background-color: #1a2e44; */
   cursor: pointer;
 
 }
@@ -83,4 +86,16 @@
    }
    #container2>div>div>img{
     margin-bottom: 100px;
+   }
+
+   #hi, #hi2, #hi3 {
+    display: none;
+   }
+
+   .btnSTYLE {
+    background-color: #1a2e44;
+    color: white;
+   }
+   .btnSTYLE:hover {
+    color: white;
    }
