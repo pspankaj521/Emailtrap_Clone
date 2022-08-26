@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#parentCrauser {
+    background-color: #F1EFDC;
+    padding: 100px 0px;
+}
+
+#parentCrauser > h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #202C45;
+}
+
+
+#crauser {
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#reverse, #forward {
+    /* margin-left: 10px; */
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.fas {
+    font-size: 30px;
+}
+
+#detCont {
+    /* border: 1px solid blue; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height: 250px;
+    width: 600px;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    padding: 50px 50px;
+    background-color: white;
+}
+
+
+.linkTag {
+    color: #abb8c3;
+    text-decoration: none;
+}
+
+.linkTag:hover {
+    color: #00d084;
+}
