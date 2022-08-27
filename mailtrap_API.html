@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Styles/mailtrap_API.css">
-    
     <script src="https://kit.fontawesome.com/a7c69f7ec4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Styles/crauser.css">
+    <link rel="stylesheet" href="./Styles/footer.css">
+    <link rel="stylesheet" href="./Styles/signup3clicks.css">
+    <link rel="stylesheet" href="./Styles/navbar.css">
+
 </head>
 <body>
-    
+    <div id="nav_container"></div>
     <div id="box1">
         <div id="text_box">
             <h1>Automate Your Email Testing With Mailtrap’s API</h1>
             <p>Cover your code with tests and validate if emails are sent. Test multiple variables at a time.</p>
-            <a href=""><button id="signup_button">Sign Up For Free</button></a>
+            <a href="./signup.html"><button id="signup_button">Sign Up For Free</button></a>
             <div id="text_box_small_img">
                 <img src="https://mailtrap.io/wp-content/uploads/2021/01/logo__rails.svg" alt="">
                 <img src="https://mailtrap.io/wp-content/uploads/2021/01/logo__php.svg" alt="">
@@ -125,7 +128,7 @@
                     <p>Set up recurring checks and use API to access other Mailtrap features – spam score, HTML check, bcc tracking, and many others.</p>
                 </div>
             </div>
-            <a href=""><button id="signup_button">Sign Up For Free</button></a>
+            <a href="./signup.html"><button id="signup_button">Sign Up For Free</button></a>
 
         </div>
         <div id="box4_img_box">
@@ -156,20 +159,52 @@
             <div>
                 <img src="https://mailtrap.io/wp-content/uploads/2021/01/html-checkef.svg" alt="">
                 <p>Validate the HTML/CSS rules included in your emails template. Gauge the support across popular clients – on web, mobile, and desktop.</p>
-                <a href=""><button>Read More</button></a>
+                <a href="./html_email_checker.html"><button>Read More</button></a>
             </div>
             <div>
                 <img src="https://mailtrap.io/wp-content/uploads/2021/01/mailtrap-logo.svg" alt="">
                 <p>Build automated tests of your email sequences and include them in your testing suite. Verify each component of a message with Mailtrap API.</p>
-                <a href=""><button>Read More</button></a>
+                <a href="./mailtrap_API.html"><button>Read More</button></a>
             </div>
             <div>
                 <img src="https://mailtrap.io/wp-content/uploads/2021/01/auomation-logo.svg" alt="">
                 <p>Test email sending from your project, and view each message sent in your Mailtrap inbox. Never send your test emails to real users.</p>
-                <a href=""><button>Read More</button></a>
+                <a href="./qa_automation.html"><button>Read More</button></a>
             </div>
         </div>
     </div>
+
+     <!---------------------------------------------------------------------->
+     <div class="createaccount">
+        <div class="signuppage">
+            <h3>Create Your Free Account</h3>
+            <div class="signheading">
+                <h2>In 3 Clicks</h2>
+            </div>
+            <div class="signup_btn">
+                <a href="#" style="text-decoration: none; color: #fff;" class=" crunch-button_3">
+                    Sign Up Now
+                </a>
+            </div>
+        </div>
+        <div class="createaccount_img">
+            <img src="https://mailtrap.io/wp-content/uploads/2021/01/img__cta.svg" alt="email">
+        </div>
+    </div>
+  <!--------------------------------------------------------------------------------------->
+
+    <div id="footcont"></div>
 </body>
 </html>
-<script src="./Scripts/crauser.js"></script>
+<script src="./Scripts/mailtrap_API.js"></script>
+<script type="module">
+
+    import footer from "./components/homepagefooter.js";
+  let container=document.getElementById("footcont");
+  container.innerHTML=footer();
+
+  import navbar from "./components/navbar.js"
+  let nav_container=document.getElementById("nav_container");
+  nav_container.innerHTML=navbar();
+
+</script>
