@@ -65,6 +65,9 @@
                         <label for="">Password</label>
                         <a href="" style="text-decoration: none; font-weight: 100; padding-right: 0px;">Forgot Password?</a>
                     </div> -->
+                    <label for="" style="padding-left: 25px;">Name</label><br>
+                    <input type="text" style="margin-top: 8px;" id="name"><br><br>
+
                     <label for="" style="padding-left: 25px;">Email</label><br>
                     <input type="text" style="margin-top: 8px;" id="email"><br><br>
                     
@@ -82,16 +85,18 @@
                         <p >You will receive the confirmation email after submitting this form.</p>
                     </div>
 
-                    <a href="" class="butn">
+                    <a href="" class="butn" id="SIGNUPbtn" onclick="addData()">
                         <div class="auth-buttons nextBtn" style="width: 75%;margin-left: 15px; ">
-                            <div >Sign Up</div>
+                            <div>Sign Up</div>
                         </div>
                     </a>
             
                     <!-- <button id="loginBtn">Log In</button> -->
                 </div>
 
+                <div id="Message" style="width: 73%; padding: 10px 0px; display: flex;justify-content: center; font-weight: bold;  border-radius: 4px; margin-left: 20px;"></div>
                 <div class="auth-text" style="display: flex; justify-content:center; border: none; margin-left: 20px; margin-top: -20px;">
+                    
                     <div style="width: 85%; margin-left: -40px; text-align: center; line-height: 24px;">By creating a Mailtrap account, you agree to our <a href="" style="color: #4c83ee; font-weight: 100;">Terms of Service</a> and <a href=""  style="color: #4c83ee; font-weight: 100;"> Privacy Policy.</a> We'll occasionally send you account related emails.</div>
                 </div>
 
@@ -156,3 +161,5 @@
         // console.log(document.getElementById('email').value);
     });
 </script>
+
+<script src="./Scripts/signup.js"></script>
