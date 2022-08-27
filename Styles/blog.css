@@ -7,12 +7,14 @@
     #cont{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        margin-top: 100px;
     }
     #cont>input{
         border-radius: 5px;
         width: 400px;
         padding-left: 10px;
         font-size: 15px;
+        border: 1px solid;
     }
     #cont2{
         background-color: #f9c273 ;
@@ -27,6 +29,7 @@
         width: 65%;
         margin-left: 40px;
        font-size: 30px;
+       margin-top: 20px;
     
     }
     #cont2 >div:last-child{
@@ -51,7 +54,7 @@
     
      #cont3>div:first-child>img{
     width: 20%;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-left: 60px;
     border-radius: 50px;
          
@@ -224,4 +227,39 @@
     #cont5>div>div>div:last-child{
     
         margin-top: -10px;
+    }
+    #cont4>div>div>h2{
+        margin-top: 20px;
+    }
+    #cont4>div>div>p{
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    #cont4>div>div>div:last-child>div:last-child>p{
+        margin-top: 10px;
+    }
+    #cont4>div>div>div:last-child>div:last-child{
+        margin-top: 20px;
+        /* border: 1px solid; */
+    }
+    #cont5>div>div>h2{
+        margin-top: 20px;
+    }
+    #cont5>div>div>p{
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    #cont5>div>div>div:last-child>div:last-child>p{
+        margin-top: 10px;
+    }
+    #cont5>div>div>div:last-child>div:last-child{
+        margin-top: 20px;
+        /* border: 1px solid; */
+    }
+    #cont5>div>div>div:last-child{
+        margin-top: 20px;
+        /* border: 1px solid; */
+    }
+    #footer{
+        margin-top: 50px;
     }
