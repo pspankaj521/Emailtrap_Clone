@@ -9,9 +9,9 @@ body {
 
 /* section-1 css */
 #sec1 {
-  border: 1px solid black;
-  width: 90%;
-  margin: auto;
+  /* border: 1px solid black; */
+  width: 80%;
+  margin: 150px auto auto auto;
   height: 100%;
 }
 
@@ -19,6 +19,7 @@ body {
   /* border: 1px solid red; */
   text-align: center;
   margin-bottom: 50px;
+  color: #202C45;
 }
 
 #sec1 > #container1 {
@@ -48,12 +49,13 @@ body {
   font-weight: bolder;
   color: #22d172;
   margin: 20px 0px;
+  font-size: 14px;
 }
 
 /* price($ 10 99) design - combined Sec-2 button css*/
 #sec1 > #container1 > .box > div > .price > h1,
 #container2 > div:last-child > .box > div > .price > h1 {
-  font-size: 30px;
+  font-size: 35px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -70,12 +72,13 @@ body {
   text-align: start;
   padding: 20px;
   height: 250px;
+  font-size: 14px;
 }
 
 /* button in boxes */
 #sec1 > #container1 > .box > div:nth-child(3),
 #container2 > div:last-child > .box > div:nth-child(2) {
-  padding: 20px;
+  padding: 20px 10px;
 }
 
 #sec1 > #container1 > .box > div:nth-child(3) > a > button,
@@ -109,9 +112,9 @@ body {
 
 /* section-2 css */
 #sec2 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background-color: rgb(254, 254, 254);
-  width: 90%;
+  width: 80%;
   margin: 70px auto 70px auto;
   height: auto;
   padding: 50px 0px;
@@ -119,8 +122,11 @@ body {
 
 /* sec2 heading */
 #sec2 > h1 {
+  /* border: 1px solid green; */
   text-align: center;
   margin-bottom: 50px;
+  color: #202C45;
+  font-size: 32px;
 }
 
 /* sec2 container2 */
@@ -146,6 +152,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   padding: 20px 0px;
+  color: #202C45;
 }
 
 /* main rows css */
@@ -193,6 +200,7 @@ body {
   /* background-color: yellow; */
   border: 1px solid rgb(192, 188, 188);
   display: none;
+  padding: 10px 0px;
 }
 
 /* LAST ROW - css */
@@ -211,9 +219,9 @@ body {
 
 /* Sec-3 css */
 #sec3 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* background-color: yellow; */
-  width: 90%;
+  width: 80%;
   margin: auto;
   height: 100%;
   padding: 50px 0px;
@@ -227,7 +235,10 @@ body {
 }
 
 #sec3 > div:first-child > h1 {
+  /* border: 1px solid green; */
   margin-bottom: 20px;
+  color: #202C45;
+  font-size: 32px;
 }
 
 #sec3 > div:first-child a {
@@ -271,11 +282,11 @@ body {
 }
 
 #sec3 > #carousel > button:nth-child(2) {
-  left: 30%;
+  left: 25%;
 }
 
 #sec3 > #carousel > button:nth-child(3) {
-  right: 30%;
+  right: 25%;
 }
 
 /* box inside crousel */
@@ -342,7 +353,7 @@ a {
     border: 1px solid black;
     background-color: rgb(254, 254, 254);
     width: 100vw;
-    margin: 20px auto 20px auto;
+    margin: 150px auto 20px auto;
     padding: 30px 0px;
   }
 
@@ -425,7 +436,7 @@ a {
     border: 1px solid black;
     background-color: rgb(254, 254, 254);
     width: 100vw;
-    margin: 10px auto 10px auto;
+    margin: 150px auto 10px auto;
     padding: 10px 0px;
   }
 
@@ -482,6 +493,7 @@ a {
   padding: 0px;
   margin: 0px;
 }
+
 
 
 }
