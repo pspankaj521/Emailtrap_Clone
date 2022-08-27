@@ -3,22 +3,25 @@
 }
 
 #h1 {
-    padding-top: 5%;
+    padding-top: 10%;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 
 
 }
 
 .text {
+    padding-top: 3%;
     width: 40%;
     margin: auto;
-    font-size: 23px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 540;
     text-align: center;
+    line-height: 45px;
 }
 
 .signup_button {
@@ -28,7 +31,7 @@
     border: rgb(59, 191, 59) solid 2px;
     color: white;
     width: 150px;
-    height: 30px;
+    height: 40px;
     margin: auto;
     margin-top: 50px;
     padding-top: 10px;
@@ -47,6 +50,7 @@
     gap: 55px;
     padding-top: 60px;
     justify-content: center;
+    padding-top: 7%;
 }
 
 .logo img {
@@ -58,6 +62,21 @@
     justify-content: center;
     padding-top: 35px;
 }
+.videoparent{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    bottom: 350px;
+}
+.icon-play {
+   
+    transform: translate(50%,) scale(1);
+    background-color: #cacaea;
+    border-radius: 15px;
+    
+}
 
 .container {
     width: 100%;
@@ -68,21 +87,22 @@
 }
 
 .text-center {
-    /* border: 1px solid black; */
+    padding-top: 4%;
     width: 60%;
     margin: auto;
-    font-size: 30px;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: bold;
     color: rgb(5, 5, 37);
 }
 
 .text-center {
     text-align: center;
 }
-
+.container_first{
+    padding-top: 4%;
+}
 .container_first {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -144,7 +164,8 @@
     padding-left: 22px;
     color: rgb(43, 42, 42);
     line-height: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
 }
 
 #setup {
@@ -153,15 +174,19 @@
 
 .setup_h1 {
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 0%;
     color: rgb(5, 5, 37);
-    padding-top: 70px;
+    padding-top: 80px;
 }
 
 .setup_h1>p {
     font-size: 14px;
+    padding-top: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
 }
 
 #setupcont {
@@ -173,35 +198,35 @@
 }
 
 .entry-content {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* font-family: Georgia, serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
     color: rgb(46, 45, 45);
     padding-top: 25px;
-    line-height: 30px;
+    line-height: 45px;
     width: 120%;
 }
 
 .conatiner_hd {
-    padding-top: 45px;
+    padding-top: 70px;
 }
 
 .mailtrap_h1 {
-    /* border: 1px solid red; */
-    width: 35%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 22%; 
     margin: auto;
 }
 
 .mailtrap_h1>h1 {
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     color: rgb(5, 5, 37);
 }
 
 .hdimg {
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 50px;
 }
 
 .tablecontainer {
@@ -209,18 +234,17 @@
     width: 60%;
     margin: auto;
     padding-top: 25px;
-    /* border: 1px solid red; */
+    padding-top: 5%;
 }
 
 .dev {
-    /* border: 1px solid red; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-left: 20px;
-    font-family: sans-serif;
     color: rgb(5, 5, 37);
 }
 
 .developers>ul {
-    /* border: 1px solid red; */
+   
     line-height: 25px;
 }
 
@@ -280,7 +304,7 @@ ul li::before {
 .slidercontainer {
     height: 600px;
     margin-top: 80px;
-    padding-top: 70px;
+    padding-top: 80px;
     /* background-color: #fff; */
 }
 
@@ -302,7 +326,7 @@ ul li::before {
     width: 70%;
     height: 500px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-left: 300px;
     /* border: 2px solid red; */
 }
@@ -314,7 +338,7 @@ ul li::before {
     width: 70%;
     height: 500px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-left: 60px;
     /* border: 2px solid red; */
 }
@@ -326,7 +350,7 @@ ul li::before {
     width: 70%;
     height: 500px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-left: 60px;
     /* border: 2px solid red; */
 }
@@ -401,6 +425,7 @@ ul li::before {
     text-align: center;
     width: 45%;
     margin: auto;
+    padding-top: 4%;
 }
 
 .headindt>h1 {
@@ -455,7 +480,7 @@ ul li::before {
 .single-faq {
     /* border: 1px solid red; */
     width: 465px;
-    height: 220px;
+    height: 250px;
     padding: 25px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -509,7 +534,7 @@ ul li::before {
     color: #fff;
     font-size: 24px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-top: 90px;
+    margin-top: -30px;
 }
 
 .signheading>h2 {
@@ -517,7 +542,7 @@ ul li::before {
     font-size: 65px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
-    margin-top: -25px;
+    margin-top: -14px;
 }
 
 .signup_btn {
@@ -527,8 +552,7 @@ ul li::before {
     border: rgb(59, 191, 59) solid 2px;
     color: white;
     width: 150px;
-    height: 30px;
-    margin-top: -35px;
+    height: 40px;
     padding-top: 10px;
     display: block;
     font-size: 15px;
