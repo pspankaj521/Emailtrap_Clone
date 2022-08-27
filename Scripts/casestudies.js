@@ -1,6 +1,6 @@
 alls() ;
 function softwares(){
-window.location.href = ""
+window.location.href = "software.html"
 
 }
 function calendly(){
