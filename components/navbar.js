@@ -1,5 +1,5 @@
 let navbar = ()=>{
-    return `<div class="menucard">
+    return `<nav class="menucard">
     <div class="logoo">
         <a  href="">
             <img src="https://mailtrap.io/wp-content/uploads/2021/04/mailtrap-new-logo.svg" alt="logo">
@@ -39,6 +39,6 @@ let navbar = ()=>{
 </div>
 </ol>
 </div>
-</div>`
+</nav>`
 }
 export default navbar
