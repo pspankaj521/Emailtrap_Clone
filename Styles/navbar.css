@@ -4,73 +4,47 @@
     border: 0;
     box-sizing: border-box;
 }
-body{      
-    background-position: center;
-    font-family: sans-serif;
-}
-.logoo{
-    margin-top: 20px;
-    padding-left: 80px;
-}
-.menucard{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+nav{
+    height: 85px;
+    width: 100%;
+   background-color: #f6f6f7;
     display: flex;
-    height: 75px;
-    position: fixed;
-    background-color: white;
-    width:100%;
-    top: 0;
-    left: 0;
-    right: 0;
+    align-items: center;
+    justify-content:space-evenly ;
+    padding-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    
     
 }
-.list{
-    padding-left: 350px;
-    margin-top: -25px;
+nav{
+    position: fixed;
 }
-
-.list ol{
-    display:flex;
+nav ol{
+    display: flex;
+    gap: 50px;
     list-style: none;
-    padding-left: 00px;
-    padding-top: 25px;
-    font-weight: 600;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav ol li a{
+    text-decoration: none;
+    color: rgb(61, 50, 99);
+    font-weight: bold;
 
 }
-.list ol li{
-    width: 150px;
-    margin: 15px;
-    padding: 15px;
-   
-}
-.list ol li a{
-    text-decoration: none;
-    color: rgb(0,0,0);
-}
-.list ol li:hover{
-    color: rgb(96, 230, 96);
-    border-radius: 3px;
-} 
-.active,.list ol li:hover{
-    box-shadow: bh;
-    border-radius: 3px;
-} 
 .submenu1{
     display: none;
 }
-.list ol li:hover .submenu1{
+ .list ol li:hover .submenu1{
+    position: fixed;
     display: block;
-    position: relative;
-    background-color: #fff;
-    margin-top: 15px;
+    background-color: #fff; 
     margin-left: -150px;
-    width: 310px;
-    height: 350px;
-    border-radius:15px ;
+    padding-top: 5px;
+     width: 310px; 
+     height: 350px; 
+    border-radius:15px ; 
 
-}
+ } 
+
 .list ol li:hover .submenu1 ol{
     display: block;
     margin: 10px;
@@ -104,30 +78,26 @@ body{
     color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-}
-.active2,.list ol li:hover{
-    box-shadow: bh;
-    border-radius: 3px;
 } 
 .submenu2{
     display: none;
 }
-.list ol li:hover .submenu2{
+ .list ol li:hover .submenu2{
+      position: fixed;
     display: block;
-    position: relative;
-    background-color: #fff;
-    margin-top: 15px;
-    margin-left: -150px;
-    width: 310px;
-    height: 350px;
-    border-radius:15px ;
+    background-color: #fff; 
+    margin-left: -180px;
+    margin-top: 5px;
+     width: 310px; 
+     height: 350px; 
+    border-radius:15px ; 
 
-}
+}  
 .list ol li:hover .submenu2 ol{
     display: block;
     margin: 10px;
-}
-.list ol li:hover .submenu2 ol li{
+} 
+ .list ol li:hover .submenu2 ol li{
     width: 150px;
     padding: 10px;
     border-bottom: 1px dotted #fff;
@@ -162,14 +132,9 @@ body{
     height: 35px;
 }
 .btn{
-    display:grid;
-    grid-template-columns: repeat(2,25%);
-    margin-right: 80px;
-    height: 50px;
-    
-    
+    display: flex;
+    gap: 20px;
 }
-
 .btn1{
     width: 70px;
     height: 35px;
@@ -193,4 +158,51 @@ body{
     width: 80px;
     height: 30px; 
     padding-top: 5px;
+} 
+/* nav .menu_button i{
+    color: rgb(8, 1, 1);
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
 }
+ #click:checked ~ .list{
+    display: none;
+   } 
+
+@media (max-width: 940px){
+    nav .menu_button i{
+        display: block;
+    }
+    nav ol{
+        position: fixed;
+        top: 80px;
+        left:0;
+        background-color: rgb(233, 243, 243);
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+
+    }
+   #click:checked .list ~ {
+    left: -100%;
+   }
+    nav ol li{
+        margin: 40px 0;
+    }
+    nav ol li a{
+        font-size: 20px;
+        display: block;
+    }
+    .list ol li:hover .submenu1{
+        position: fixed;
+         display: block;
+        background-color: #fff; 
+        margin-right: 200px;
+         padding-top: 5px; 
+         width: 310px; 
+         height: 350px; 
+        border-radius:15px ; 
+    
+     }  
+} */
