@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pricing | Mailtrap</title>
+
+    <!-- All css linked -->
+    <link rel="stylesheet" href="./Styles/navbar.css">
     <link rel="stylesheet" href="./Styles/pricing.css" />
+    <link rel="stylesheet" href="./Styles/footer.css">
   </head>
   <body>
     <!-- Pricing Page -->
+
+        <!-- Imported Navbar -->
+        <div id="navbar"></div>
 
     <!-- section-1 -->
     <div id="sec1">
@@ -745,7 +752,30 @@
         <button onclick="forward()">></button>
       </div>
     </div>
+
+        <!-- Imported FOOTER -->
+        <div id="footer"></div>
   </body>
 </html>
 
+<!-- All scripts linked -->
+
+<script src="./Scripts/navbar.js"></script>
 <script src="./Scripts/pricing.js"></script>
+
+<script type="module">
+  import navbar from "./components/navbar.js"
+  console.log(navbar);
+
+  let nav = document.getElementById("navbar");
+  nav.innerHTML = navbar();
+
+
+  import footer from "./components/homepagefooter.js"
+  console.log(navbar);
+
+  let foot = document.getElementById("footer");
+  foot.innerHTML = footer();
+</script>
+
+<script src="./Scripts/footer.js"></script>

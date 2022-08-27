@@ -1,161 +1,160 @@
 *{
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 nav{
-    height: 85px;
-    width: 100%;
-   background-color:white;
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly ;
-    padding-top: 10px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   z-index: 1;
-    
+  height: 85px;
+  width: 100%;
+ background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly ;
+  padding-top: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 1;
 }
 nav{
-    position: fixed;
-    top: 0;
+  position: fixed;
+  top: 0;
 }
 nav ol{
-    display: flex;
-    gap: 50px;
-    list-style: none;
+  display: flex;
+  gap: 50px;
+  list-style: none;
 }
 nav ol li a{
-    text-decoration: none;
-    color: rgb(61, 50, 99);
-    font-weight: bold;
+  text-decoration: none;
+  color: rgb(61, 50, 99);
+  font-weight: bold;
 
 }
 .submenu1{
-    display: none;
+  display: none;
 }
- .list ol li:hover .submenu1{
-    position: fixed;
-    display: block;
-    background-color: #fff; 
-    margin-left: -150px;
-    padding-top: 5px;
-     width: 310px; 
-     height: 350px; 
-    border-radius:15px ; 
+.list ol li:hover .submenu1{
+  position: fixed;
+  display: block;
+  background-color: #fff; 
+  margin-left: -150px;
+  padding-top: 5px;
+   width: 310px; 
+   height: 350px; 
+  border-radius:15px ; 
 
- } 
+} 
 
 .list ol li:hover .submenu1 ol{
-    display: block;
-    margin: 10px;
+  display: block;
+  margin: 10px;
 }
 .list ol li:hover .submenu1 ol li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
 }
 .list ol li:hover .submenu1 ol li:last-child{
-    border-bottom: none;
+  border-bottom: none;
 }
 .list ol li:hover .submenu1 ol li a:hover{
-    color: rgb(110, 227, 110);
+  color: rgb(110, 227, 110);
 }
 .h1{
-    width: 200px;
-    padding-left: 50px;
-    margin-top: -35px;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 200px;
+  padding-left: 50px;
+  margin-top: -35px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .desc{
-    width: 300px;
-    padding-left: 50px;
-    font-size: 13px;
-    color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 300px;
+  padding-left: 50px;
+  font-size: 13px;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 } 
 .submenu2{
-    display: none;
+  display: none;
 }
- .list ol li:hover .submenu2{
-      position: fixed;
-    display: block;
-    background-color: #fff; 
-    margin-left: -180px;
-    margin-top: 5px;
-     width: 310px; 
-     height: 350px; 
-    border-radius:15px ; 
+.list ol li:hover .submenu2{
+    position: fixed;
+  display: block;
+  background-color: #fff; 
+  margin-left: -180px;
+  margin-top: 5px;
+   width: 310px; 
+   height: 350px; 
+  border-radius:15px ; 
 
 }  
 .list ol li:hover .submenu2 ol{
-    display: block;
-    margin: 10px;
+  display: block;
+  margin: 10px;
 } 
- .list ol li:hover .submenu2 ol li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
+.list ol li:hover .submenu2 ol li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
 }
 .list ol li:hover .submenu2 ol li:last-child{
-    border-bottom: none;
+  border-bottom: none;
 }
 .list ol li:hover .submenu2 ol li a:hover{
-    color: rgb(110, 227, 110);
+  color: rgb(110, 227, 110);
 }
 .h11{
-    width: 200px;
-    padding-left: 50px;
-    margin-top: -35px;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 200px;
+  padding-left: 50px;
+  margin-top: -35px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .desc1{
-    width: 300px;
-    padding-left: 50px;
-    font-size: 13px;
-    color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 300px;
+  padding-left: 50px;
+  font-size: 13px;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 .gmi{
-    width: 35px;
-    height: 35px;
+  width: 35px;
+  height: 35px;
 }
 .btn{
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 .btn1{
-    width: 70px;
-    height: 35px;
-    margin-top: -5px;
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 600;
-    color: #fff;
-    font-size: 12px;
-    border: 1px solid black;
-    border-radius: 10px;
+  width: 70px;
+  height: 35px;
+  margin-top: -5px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 12px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 #signupbt{
-    background-color: rgb(59, 191, 59); 
-    width: 80px;
-    height: 30px; 
-    padding-top: 5px;  
+  background-color: rgb(59, 191, 59); 
+  width: 80px;
+  height: 30px; 
+  padding-top: 5px;  
 }
 #lg1{
-    color:black ;
-    width: 80px;
-    height: 30px; 
-    padding-top: 5px;
+  color:black ;
+  width: 80px;
+  height: 30px; 
+  padding-top: 5px;
 }
