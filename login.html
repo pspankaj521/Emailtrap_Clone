@@ -65,19 +65,19 @@
                 <div class="pannel" id="pann">
                     <div id="passDiv">
                         <label for="">Password</label>
-                        <a href="" style="text-decoration: none; font-weight: 100; padding-right: 0px;">Forgot Password?</a>
+                        <a href="" style="text-decoration: none; font-weight: 100; padding-right: 0px;" onclick="showPassword()">Forgot Password?</a>
                     </div>
                     
                     <input id="password" style="margin-top: 8px;" type="password" name="" id=""><br>
                     <br>
             
                     <div id="remCheckBox">
-                        <input type="checkbox" style="padding: 5px" name="" id=""><label for="">Remember me</label>
+                        <input type="checkbox" style="padding: 5px" name="" id="checkedIn"><label for="">Remember me</label>
                     </div>
                     
                     <br>
 
-                    <a href="" class="butn">
+                    <a href="" class="butn" onclick="login()">
                         <div class="auth-buttons nextBtn" style="width: 75%;margin-left: 15px; ">
                             <div >Log In</div>
                         </div>
@@ -86,7 +86,9 @@
                     <!-- <button id="loginBtn">Log In</button> -->
                 </div>
 
+
                 <div style=" width: 80%; text-align: center;">
+                    <p id="Message" style="width: 93%; font-weight: bold; margin: auto; border-radius: 5px; padding: 10px 0px; margin-bottom: 10px;"></p>
                     <p >Haven't received the confirmation email yet?</p>
                     <a href=""   style="color: #4c83ee; text-align: center; margin-top: -20px;">Resend the email</a>
                 </div>
@@ -116,12 +118,10 @@
     con.innerHTML = footer();
 </script>
 
-<script type="module">
-    
-</script>
 
 <script>
-    window.onscroll = function() {myFunction()};
+    window.onscroll = function() {
+        myFunction()};
 
     function myFunction() {
         if (document.documentElement.scrollTop > 10) {
@@ -149,3 +149,4 @@
         }
     });
 </script>
+<script src="./Scripts/login.js"></script>

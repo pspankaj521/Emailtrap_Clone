@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>software</title>
+    <link rel="stylesheet" href="./Styles/calendly.css">
+</head>
+<body>
+    <div id="body"> 
+    <div id="cont1"> <div> <h2>How Calendly Streamlines Email Testing with Mailtrap </h2> </div> <div> <img src="	https://mailtrap.io/wp-content/uploads/2022/01/calendly-1.svg " alt=""> </div> </div> </div>
+    <div id="cont3"> <div><h2> 40M</h2> <p> emails sent every month</p></div> <div><h2>40+</h2> <p> developers, QAs, and PdMs involved in email testing</p></div> <div> <h2> Since 2017
+    </h2> <p> using Mailtrap
+
+    </p></div> </div>
+    <div id="cont2" > <div> <div> <img src="https://mailtrap.io/wp-content/uploads/2022/01/Calendly_logo-1.svg" alt="">  <h2>HQ</h2> <p> Atlanta, Georgia, USA</p> <h2> Industry</h2> <p> Business Applications</p> <h2>Key Features Used</h2> <li> <a href="https://mailtrap.io/html-email-checker/">HTML Checker </a> </li> <li> <a href="https://mailtrap.io/fake-smtp-server/ ">Fake SMTP Server </a></li> <li><a href="https://help.mailtrap.io/article/16-share-inboxes?_ga=2.133880014.1795456216.1661406621-1800514393.1661406620">  Sharing Inboxes </a> </li> <button>Try Mailtrap Now</button> </div> <div> <h2> What’s Calendly</h2>
+      <p> <a href="https://calendly.com/"> Calendly </a> is arguably the world’s most popular tool for scheduling meetings. It’s used by over 10 million customers worldwide, with companies such as eBay, Dropbox, and Twilio among their clients. </p>
+
+     <p>   Calendly connects to your calendar and takes charge of your availability. It coordinates appointment scheduling and keeps all parties in sync through timely reminders. What’s more, it gives you a straightforward overview of upcoming meetings and enables seamless team collaboration. </p>
+        
+     <p>   Email is an essential part of any appointment scheduling, and it’s no different for Calendly. Since 2017, they have been using Mailtrap to test all their transactional emails. </p> </div>  </div> 
+    
+       <div>
+        <div> <h2> The Challenge</h2> <p> The Calendly platform sends out around 40 million emails during an average month. These include meeting invitations, reminders, “thank you” notes, account confirmations, password resets, etc. What’s more, customers can customize their email templates, which creates many variables to test before a release.
+      </p>
+      <p>    At any one time, around 15 developers are involved in building and improving email-related features. A similar number of QAs jump in next, running extensive tests of each new build. One mutual inbox for capturing all their test emails wouldn’t work at such a scale. Instead, each tester would need to set up a separate, personal inbox, or ideally, a few of them to begin with.  </p>
+          
+     <p>   At the rapid pace that Calendly is growing every year, this would mean an extensive amount of manual work to set things up and organize the daily work of different teams. What’s more, the emails they send are opened in virtually any email client.  </p>
+          
+     <p>     As such, Calendly needed a reliable and accessible way of testing the emails inside and out, validating their HTML/CSS rules, identifying spam threats, etc. Essentially, they needed a way to automate their email testing and make it scalable. </p> </div> 
+          
+            <div> <p> Our users create a Mailtrap account on their own, then copy the inbox ID and API key, and paste them to their configuration in Kakunin. We added another layer of abstraction that allows a user to handle the majority of Mailtrap functionality without coding.</p> <h2>Marcin Basiakowski</h2> <h4>   Head of QA at TSH</h4> 
+            <img src="https://mailtrap.io/wp-content/uploads/2022/01/Michele-Calendly-04-114x114.png" alt=""> </div>
+        
+       </div>
+
+       <div>  
+        <div> <p> Our users create a Mailtrap account on their own, then copy the inbox ID and API key, and paste them to their configuration in Kakunin. We added another layer of abstraction that allows a user to handle the majority of Mailtrap functionality without coding.</p> <h2>Marcin Basiakowski</h2> <h4>   Head of QA at TSH</h4> 
+            <img src="https://mailtrap.io/wp-content/uploads/2022/01/Rob-Calendly-01-114x114.png" alt=""></div> <div> <h2> The Solution</h2>  <p> Eventually, The Software House switched to Mailtrap as a dedicated email testing solution. They set it up to capture all emails going out from the development and QA environments. Engineers and testers check that emails are sent to the correct users and that no duplicates are created. They preview emails and check their responsiveness.  </p>
+
+          <p>  In Mailtrap, they created separate, team-wise accessible inboxes for different environments (for example, UAT, staging, local, etc.) and client projects. Emails don’t get mixed up and it’s easy to jump between environments or check emails sent from a particular project.  </p>
+            
+         <p> TSH also integrated Mailtrap with the user acceptance testing servers. Test emails are forwarded to regular inboxes but are still available in Mailtrap. This way, all the messages are kept in one place which is highly appreciated by testing teams. </p>
+            
+         <p>   For Kakunin, accessing Mailtrap via its UI wasn’t an option. CI and automated test environments require automated solutions, and that’s precisely what TSH found in the Mailtrap API. They built a Mailtrap adaptor in the Kakunin framework for handling user inputs.  </p>
+            
+          <p> Users of Kakunin write their testing commands in the human-readable Gherkin language as well as JavaScript. A layer of abstraction translates these inputs into specific features of the Mailtrap API using the dedicated adaptor. </p> </div> 
+
+       </div>
+     
+       <div>
+        <div> <h2> Why Mailtrap?</h2>  <p> TSH engineers and testers told us that they were impressed with the speed of the setup. In 10 minutes, they had a testing inbox configured and integrated with their app. As the test emails kept flowing, they could view any of them without the fear that old messages would be lost. </p>
+
+        <p>    It was no different for Mailtrap API. Our interviewees at TSH told us that it was very straightforward and quick to plug into their framework.   </p> 
+            
+         <p>  They also appreciate having individual inboxes for each environment and project rather than pushing all emails into one folder. This makes it easy to navigate and quickly find the right messages. They can rapidly run new iterations and view each message in a Mailtrap inbox just seconds later. </p>  </div> 
+          
+            <div> <p> Our users create a Mailtrap account on their own, then copy the inbox ID and API key, and paste them to their configuration in Kakunin. We added another layer of abstraction that allows a user to handle the majority of Mailtrap functionality without coding.</p> <h2>Marcin Basiakowski</h2> <h4>   Head of QA at TSH</h4> 
+                <img src="https://mailtrap.io/wp-content/uploads/2022/01/Raaziq-Calendly-03-114x114.png" alt=""> </div>
+
+
+       </div>
+    
+    
+    </div>
+
+</body>
+</html>

@@ -1,14 +1,751 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pricing | Mailtrap</title>
-    <link rel="stylesheet" href="./Styles/pricing.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./Styles/pricing.css" />
+  </head>
+  <body>
     <!-- Pricing Page -->
-    
-</body>
+
+    <!-- section-1 -->
+    <div id="sec1">
+      <div>
+        <h1>Choose A Plan That Suits Your Needs</h1>
+      </div>
+
+      <!-- container containing all 6 contnent boxes -->
+      <div id="container1">
+        <div class="box">
+          <div>
+            <h3>Free</h3>
+            <div class="price">
+              <sup>$</sup>
+              <h1>0</h1>
+              <!-- <sup>99</sup> -->
+            </div>
+            <p>Forever</p>
+          </div>
+          <div style="background-color: #dde9f1">
+            <p>
+              For new users who want to evaluate Mailtrap or intend to apply it
+              on a personal side project.
+            </p>
+          </div>
+          <div>
+            <a href="signup.html"><button>Try Free</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <div>
+            <h3>Individual</h3>
+            <div class="price">
+              <sup>$</sup>
+              <h1>9</h1>
+              <sup>99</sup>
+            </div>
+            <p>Monthly</p>
+          </div>
+          <div style="background-color: #f9f9f7">
+            <p>
+              For freelancers and individuals working in a one-person team, who
+              want to benefit from higher email sending rate limits.
+            </p>
+          </div>
+          <div>
+            <a href="signup.html"><button>Buy Now</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <div>
+            <h3>Team</h3>
+            <div class="price">
+              <sup>$</sup>
+              <h1>24</h1>
+              <sup>99</sup>
+            </div>
+            <p>Monthly</p>
+          </div>
+          <div style="background-color: #f9f9f7">
+            <p>
+              For an established team where users may invite others to join
+              their project, which has a moderate volume of emails to test.
+            </p>
+          </div>
+          <div>
+            <a href="signup.html"><button>Buy Now</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <div>
+            <h3>Business</h3>
+            <div class="price">
+              <sup>$</sup>
+              <h1>49</h1>
+              <sup>99</sup>
+            </div>
+            <p>Monthly</p>
+          </div>
+          <div style="background-color: #f9f9f7">
+            <p>
+              For companies with multiple tech teams working on several of their
+              own or client projects that require higher rate limits, more
+              emails, extra inboxes and a dedicated email address.
+            </p>
+          </div>
+          <div>
+            <a href="signup.html"><button>Buy Now</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <div>
+            <h3>Premium</h3>
+            <div class="price">
+              <sup>$</sup>
+              <h1>99</h1>
+              <sup>99</sup>
+            </div>
+            <p>Monthly</p>
+          </div>
+          <div style="background-color: #f9f9f7">
+            <p>
+              For large organizations looking for a reliable system to handle
+              large-scale email testing backed up by prime limits and rich
+              collaboration possibilities.
+            </p>
+          </div>
+          <div>
+            <a href="signup.html"><button>Buy Now</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <div>
+            <h3>Enterprise</h3>
+            <div class="price">
+              <sup>$</sup>
+              <h1>299</h1>
+              <sup>99</sup>
+            </div>
+            <p>Monthly</p>
+          </div>
+          <div style="background-color: #f9f9f7">
+            <p>
+              For clients who are capable of challenging Mailtrap by loading it
+              with email testing from both development and staging environments
+              with virtually no limits.
+            </p>
+          </div>
+          <div>
+            <a href="signup.html"><button>Buy Now</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-2 -->
+    <div id="sec2">
+      <h1>See How Much We Offer</h1>
+      <div id="container2">
+        <div id="head">
+          <div></div>
+          <div>Free</div>
+          <div>Individual</div>
+          <div>Team</div>
+          <div>Business</div>
+          <div>Premium</div>
+          <div>Enterprise</div>
+        </div>
+
+        <!-- row-1 -->
+        <div class="ROW">
+          <div id="row1" class="row" onclick="dropdown1()">
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              Total test emails per month
+            </div>
+            <div style="background-color: rgb(250, 250, 254)">500</div>
+            <div>5K</div>
+            <div>15K</div>
+            <div>50K</div>
+            <div>100K</div>
+            <div>10M</div>
+          </div>
+          <div id="subrow1" class="subrow">
+            <p>
+              The maximum number of emails you can test with Mailtrap and get in
+              all your Mailtrap Inboxes per month
+            </p>
+          </div>
+        </div>
+
+        <!-- row-2 -->
+        <div class="ROW">
+          <div id="row2" class="row" onclick="dropdown2()">
+            <div style="background-color: rgb(247, 243, 243)">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              Sending rate limits per 10 sec
+            </div>
+            <div>5</div>
+            <div style="background-color: rgb(247, 243, 243)">10</div>
+            <div style="background-color: rgb(247, 243, 243)">25</div>
+            <div style="background-color: rgb(247, 243, 243)">50</div>
+            <div style="background-color: rgb(247, 243, 243)">100</div>
+            <div style="background-color: rgb(247, 243, 243)">150</div>
+          </div>
+          <div id="subrow2" class="subrow">
+            <p>
+              The number of emails you can send to each of your Inboxes every 10
+              seconds
+            </p>
+          </div>
+        </div>
+
+        <!-- row-3 -->
+        <div class="ROW">
+          <div id="row3" class="row" onclick="dropdown3()">
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              Inboxes
+            </div>
+            <div style="background-color: rgb(250, 250, 254)">1</div>
+            <div>5</div>
+            <div>15</div>
+            <div>40</div>
+            <div>80</div>
+            <div>300</div>
+          </div>
+          <div id="subrow3" class="subrow">
+            <p>
+              Inboxes are separate folders where your test messages from
+              different environments (dev, QA, staging) are captured. Every
+              Inbox is created inside a Project – the folder, which can be
+              shared with other Mailtrap users, according to the Team members
+              feature options
+            </p>
+          </div>
+        </div>
+
+        <!-- row-4 -->
+        <div class="ROW">
+          <div id="row4" class="row" onclick="dropdown4()">
+            <div style="background-color: rgb(247, 243, 243)">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              Team members
+            </div>
+            <div><!-- EMPTY --></div>
+            <div style="background-color: rgb(247, 243, 243)">
+              <!-- EMPTY -->
+            </div>
+            <div style="background-color: rgb(247, 243, 243)">20</div>
+            <div style="background-color: rgb(247, 243, 243)">40</div>
+            <div style="background-color: rgb(247, 243, 243)">80</div>
+            <div style="background-color: rgb(247, 243, 243)">999</div>
+          </div>
+          <div id="subrow4" class="subrow">
+            <p>
+              Number of team members you can add to a Mailtrap account. Share
+              individual projects, inboxes or access to Billing sections with
+              them.
+            </p>
+          </div>
+        </div>
+
+        <!-- row-5 -->
+        <div class="ROW">
+          <div id="row5" class="row" onclick="dropdown5()">
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              Max emails per box
+            </div>
+            <div style="background-color: rgb(250, 250, 254)">50</div>
+            <div>200</div>
+            <div>400</div>
+            <div>600</div>
+            <div>800</div>
+            <div>1000</div>
+          </div>
+          <div id="subrow5" class="subrow">
+            <p>
+              The total number of emails you can keep in each of your Mailtrap
+              Inboxes at once. When the limit is reached Mailtrap uses the FIFO
+              model for an automatic inbox clean-up
+            </p>
+          </div>
+        </div>
+
+        <!-- row-6 - it has tickicon -->
+        <div class="ROW">
+          <div id="row6" class="row" onclick="dropdown6()">
+            <div style="background-color: rgb(247, 243, 243)">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              API
+            </div>
+            <div class="tickicon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+            <div class="tickicon" style="background-color: rgb(247, 243, 243)">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+            <div class="tickicon" style="background-color: rgb(247, 243, 243)">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+            <div class="tickicon" style="background-color: rgb(247, 243, 243)">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+            <div class="tickicon" style="background-color: rgb(247, 243, 243)">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+            <div class="tickicon" style="background-color: rgb(247, 243, 243)">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+          </div>
+          <div id="subrow6" class="subrow">
+            <p>
+              Mailtrap API allows developers to run integrational or load tests
+              as well as receive messages or email lists via API to make sure
+              the sending works correctly
+            </p>
+          </div>
+        </div>
+
+        <!-- row-7 - it has tickicon -->
+        <div class="ROW">
+          <div id="row7" class="row" onclick="dropdown7()">
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              Inbox email address
+            </div>
+            <div style="background-color: rgb(250, 250, 254)">
+              <!-- EMPTY -->
+            </div>
+            <div><!-- EMPTY --></div>
+            <div><!-- EMPTY --></div>
+            <div class="tickicon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+            <div class="tickicon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+            <div class="tickicon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+          </div>
+          <div id="subrow7" class="subrow">
+            <p>
+              The dedicated email address for each of your Inboxes that you can
+              use to send messages from other email accounts or right from your
+              application during the testing process
+            </p>
+          </div>
+        </div>
+
+        <!-- row-8 -->
+        <div class="ROW">
+          <div id="row8" class="row" onclick="dropdown8()">
+            <div style="background-color: rgb(247, 243, 243)">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              Email size
+            </div>
+            <div>5</div>
+            <div style="background-color: rgb(247, 243, 243)">7</div>
+            <div style="background-color: rgb(247, 243, 243)">10</div>
+            <div style="background-color: rgb(247, 243, 243)">15</div>
+            <div style="background-color: rgb(247, 243, 243)">20</div>
+            <div style="background-color: rgb(247, 243, 243)">25</div>
+          </div>
+          <div id="subrow8" class="subrow">
+            <p>
+              The maximum allowed size of each email message including
+              attachments, in megabytes (1MB = 1024 KB)
+            </p>
+          </div>
+        </div>
+
+        <!-- row-9 - it has tickicon -->
+        <div class="ROW">
+          <div id="row9" class="row" onclick="dropdown9()">
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              Tech Info and BCC
+            </div>
+            <div style="background-color: rgb(250, 250, 254)">
+              <!-- EMPTY -->
+            </div>
+            <div><!-- EMPTY --></div>
+            <div class="tickicon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+            <div class="tickicon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+            <div class="tickicon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+            <div class="tickicon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+          </div>
+          <div id="subrow9" class="subrow">
+            <p>
+              The detailed information about SMTP transactions and email
+              headers. Bcc’ed email addresses are displayed in a separate field.
+            </p>
+          </div>
+        </div>
+
+        <!-- row-10 -->
+        <div class="ROW">
+          <div id="row10" class="row" onclick="dropdown10()">
+            <div style="background-color: rgb(247, 243, 243)">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              Total forwarded emails per month
+            </div>
+            <div><!-- EMPTY --></div>
+            <div style="background-color: rgb(247, 243, 243)">100</div>
+            <div style="background-color: rgb(247, 243, 243)">500</div>
+            <div style="background-color: rgb(247, 243, 243)">2K</div>
+            <div style="background-color: rgb(247, 243, 243)">5K</div>
+            <div style="background-color: rgb(247, 243, 243)">10K</div>
+          </div>
+          <div id="subrow10" class="subrow">
+            <p>
+              The maximum number of emails that can be sent to whitelisted real
+              recipients with both Manual Forwarding and Auto Forwarding Rules.
+              Note: the maximum number of forwarding rules is 300.
+            </p>
+          </div>
+        </div>
+
+        <!-- row-11 -->
+        <div class="ROW">
+          <div id="row11" class="row" onclick="dropdown11()">
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              Manual forwarding recipients
+            </div>
+            <div style="background-color: rgb(250, 250, 254)">
+              <!-- EMPTY -->
+            </div>
+            <div>10</div>
+            <div>25</div>
+            <div>100</div>
+            <div>100</div>
+            <div>300</div>
+          </div>
+          <div id="subrow11" class="subrow">
+            <p>
+              The number of email addresses you can whitelist for manual
+              forwarding.
+            </p>
+          </div>
+        </div>
+
+        <!-- row-12 -->
+        <div class="ROW">
+          <div id="row12" class="row" onclick="dropdown12()">
+            <div style="background-color: rgb(247, 243, 243)">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              Projects
+            </div>
+            <div>1</div>
+            <div style="background-color: rgb(247, 243, 243)">5</div>
+            <div style="background-color: rgb(247, 243, 243)">15</div>
+            <div style="background-color: rgb(247, 243, 243)">40</div>
+            <div style="background-color: rgb(247, 243, 243)">80</div>
+            <div style="background-color: rgb(247, 243, 243)">300</div>
+          </div>
+          <div id="subrow12" class="subrow">
+            <p>
+              The groups that help you arrange your Mailtrap Inboxes and
+              distinguish different tasks you are working on simultaneously. You
+              can share your Projects with other team members
+            </p>
+          </div>
+        </div>
+
+        <!-- row-13 -->
+        <div class="ROW">
+          <div id="row13" class="row" onclick="dropdown13()">
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              Support
+            </div>
+            <div style="background-color: rgb(250, 250, 254)">non-priority</div>
+            <div>priority</div>
+            <div>priority</div>
+            <div>priority</div>
+            <div>priority</div>
+            <div>priority</div>
+          </div>
+          <div id="subrow13" class="subrow">
+            <p>
+              The email support we provide you with on Monday – Friday from 9 am
+              till 6 pm (UTC). Fast response is guaranteed for priority users
+            </p>
+          </div>
+        </div>
+
+        <!-- row-14 - it has tickicon -->
+        <div class="ROW">
+          <div id="row14" class="row" onclick="dropdown14()">
+            <div style="background-color: rgb(247, 243, 243)">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/25/25283.png"
+                alt="arrowimg"
+                style="height: 15px"
+              />
+              Single Sign-On (SSO)
+            </div>
+            <div><!-- EMPTY --></div>
+            <div style="background-color: rgb(247, 243, 243)">
+              <!-- EMPTY -->
+            </div>
+            <div style="background-color: rgb(247, 243, 243)">
+              <!-- EMPTY -->
+            </div>
+            <div style="background-color: rgb(247, 243, 243)">
+              <!-- EMPTY -->
+            </div>
+            <div style="background-color: rgb(247, 243, 243)">
+              <!-- EMPTY -->
+            </div>
+
+            <div class="tickicon" style="background-color: rgb(247, 243, 243)">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png"
+                alt="tick-icon"
+              />
+            </div>
+          </div>
+          <div id="subrow14" class="subrow">
+            <p>
+              Integrate Mailtrap into your SSO platform and manage all users and
+              permissions from one place.
+            </p>
+          </div>
+        </div>
+
+        <!-- Last row, Keeping id="head" to maintain css -->
+        <div id="head">
+          <div> <!-- EMPTY --> </div>
+          <div class="box">
+            <div>
+              <h3>Free</h3>
+              <div class="price">
+                <sup>$</sup>
+                <h1>0</h1>
+                <!-- <sup>99</sup> -->
+              </div>
+              <p>Forever</p>
+            </div>
+            <div>
+              <a href="signup.html"
+                ><button style="background-color: black">Try Free</button></a
+              >
+            </div>
+          </div>
+
+          <div class="box">
+            <div>
+              <h3>Individual</h3>
+              <div class="price">
+                <sup>$</sup>
+                <h1>9</h1>
+                <sup>99</sup>
+              </div>
+              <p>Monthly</p>
+            </div>
+            <div>
+              <a href="signup.html"><button>Buy Now</button></a>
+            </div>
+          </div>
+          <div class="box">
+            <div>
+              <h3>Team</h3>
+              <div class="price">
+                <sup>$</sup>
+                <h1>24</h1>
+                <sup>99</sup>
+              </div>
+              <p>Monthly</p>
+            </div>
+            <div>
+              <a href="signup.html"><button>Buy Now</button></a>
+            </div>
+          </div>
+          <div class="box">
+            <div>
+              <h3>Business</h3>
+              <div class="price">
+                <sup>$</sup>
+                <h1>49</h1>
+                <sup>99</sup>
+              </div>
+              <p>Monthly</p>
+            </div>
+            <div>
+              <a href="signup.html"><button>Buy Now</button></a>
+            </div>
+          </div>
+          <div class="box">
+            <div>
+              <h3>Premium</h3>
+              <div class="price">
+                <sup>$</sup>
+                <h1>99</h1>
+                <sup>99</sup>
+              </div>
+              <p>Monthly</p>
+            </div>
+            <div>
+              <a href="signup.html"><button>Buy Now</button></a>
+            </div>
+          </div>
+          <div class="box">
+            <div>
+              <h3>Enterprise</h3>
+              <div class="price">
+                <sup>$</sup>
+                <h1>299</h1>
+                <sup>99</sup>
+              </div>
+              <p>Monthly</p>
+            </div>
+            <div>
+              <a href="signup.html"><button>Buy Now</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sec-3- Carousel -->
+    <div id="sec3">
+      <div>
+        <h1>From our #BestClientEver</h1>
+        <!-- link to twitter handle -->
+        <p>
+          Share your feedback and mention
+          <a href="https://twitter.com/mailtrap">@Mailtrap</a> in Twitter
+        </p>
+      </div>
+
+      <div id="carousel">
+        <div id="box">
+          <div>
+            <h3>DeveloperMitch</h3>
+            <a href="https://twitter.com/joshuaanderton" target="_blank"
+              >@mitchellfinlay</a
+            >
+          </div>
+          <p>
+            Just signed up for @Mailtrap and I’m loving it. So easy to set up.
+            Provides so much peace of mind. Ahh just love it.
+          </p>
+          <a
+            href="https://twitter.com/gettingtoramen/status/1349410404217221120"
+            target="_blank"
+            >4:55 PM · Nov 7, 2020·</a
+          >
+        </div>
+        <button onclick="backward()"><</button>
+        <button onclick="forward()">></button>
+      </div>
+    </div>
+  </body>
 </html>
+
+<script src="./Scripts/pricing.js"></script>
