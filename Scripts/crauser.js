@@ -161,6 +161,7 @@ function forward() {
 }
 
 function linkFun(i) {
+    console.log('Hi');
     if (i < 0) {
         i = data.length - 1;
     }
@@ -173,4 +174,4 @@ function linkFun(i) {
     return i;
 }
 
-linkFun(0)
+linkFun(0);

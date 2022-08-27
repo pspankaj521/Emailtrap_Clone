@@ -61,7 +61,12 @@
     margin-top: 20px;
 }
 
-/*----------------------------------------------------------*/
+
+
+
+
+
+/*****************************************/
 
 #box2 {
 
@@ -112,7 +117,12 @@
     font-family: sans-serif;
 }
 
-/*----------------------------------------------------------*/
+
+
+
+
+/******************************************************/
+
 
 
 #box3 {
@@ -147,7 +157,11 @@
 
 }
 
-/*----------------------------------------------------------*/
+
+
+
+
+/**************************************************/
 
 #box4 {
    
@@ -214,90 +228,10 @@
 }
 
 
-/*----------------------------------------------------------*/
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-#parentCrauser {
-    background-color: rgb(248, 248, 248);
-    padding: 100px 0px;
-    
-}
-
-#parentCrauser > h1 {
-    text-align: center;
-    font-size: 35px;
-    color: #202C45;
-    font-family: sans-serif;
-}
 
 
-#crauser {
-    width: 60%;
-    height: 300px;
-    margin: auto;
-    /* border: 1px solid red; */
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
-}
-/* #crauser>img{
-    width: 30px;   
-   position: relative;
-   } */
+/********************************************************/
 
-#reverse, #forward {
-    /* margin-left: 10px; */
-    padding: 5px 10px;
-    border-radius: 10px;
-    border: none;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 20px;
-}
-
-.fas {
-    font-size: 30px;
-}
-
-#detCont {
-    /* border: 1px solid blue; */
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    height: 200px;
-    width: 600px;
-    border-radius: 10px;
-    display: grid;
-    align-items: center;
-    padding: 50px 50px;
-    background-color: white;
-    position: relative;
-}
-#detCont>img{
-   width: 60px; 
-   position: absolute;
-  top: -30px;
-  margin-left: 20px;
-}
-#detCont>div>h3{
-    font-family: sans-serif;
-}
-#detCont>div>p{
-    font-family: sans-serif;
-}
-.linkTag {
-    color: #abb8c3;
-    text-decoration: none;
-}
-
-.linkTag:hover {
-    color: #00d084;
-}
-/*----------------------------------------------------------*/
 
 #box6{
    
