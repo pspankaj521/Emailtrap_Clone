@@ -35,7 +35,7 @@ let navbar = ()=>{
     </li>
     <div class="btn">
     <li><a href="./login.html"><div id="lg1" class="btn1"><h4>Login</h4></div></a></li>
-    <li><a href="./signup.html"><div id="signupbt" class="btn1"><h4>Sign Up</h4></div></a></li>
+    <li><a href="./signup.html"><div id="signupbt" class="btn1" style="border: none;"><h4>Sign Up</h4></div></a></li>
 </div>
 </ol>
 </div>
