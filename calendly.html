@@ -67,3 +67,19 @@
 
 </body>
 </html>
+
+<script>
+  let us = JSON.parse(localStorage.getItem('user'));
+  console.log(us);
+  if(us.checkedIn){
+    setTimeout(function(){
+    // console.log();
+    document.getElementById('USNAME').innerHTML = null;
+    // document.getElementById('USNAME').style.border = '1px solid red';
+    document.getElementById('USNAME').style.marginTop = '-6px'
+    let h2 = document.createElement('h2');
+    h2.innerText = us.name;
+    document.getElementById('USNAME').append(h2);
+  }, 50);
+  }
+</script>
