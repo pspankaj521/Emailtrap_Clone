@@ -5,8 +5,9 @@
 }
 
 #parentCrauser {
-    background-color: #F1EFDC;
+    background-color: #f6f6f7;
     padding: 100px 0px;
+    margin-top: 7%;
 }
 
 #parentCrauser > h2 {
