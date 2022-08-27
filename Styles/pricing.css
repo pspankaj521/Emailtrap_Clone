@@ -247,6 +247,7 @@ body {
   display: inline-block;
   position: relative;
   color: #0087ca;
+  /* z-index: -1; this removes the problem of appering over navbar when scrolled but making hover effect uneffective instead done z-index = 1 for header css in navbar.css file */
 }
 
 /* hover effect in anchor tag */
