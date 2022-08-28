@@ -1,7 +1,4 @@
 
-// import footer from "../components/homepagefooter.js" ;
-
-
 function  blog(){
     window.location.href ="https://mailtrap.io/blog/category/email-dev-and-infrastructure/" 
 }
@@ -31,6 +28,5 @@ function guide(){
  }function guides(){
     window.location.href = "https://mailtrap.io/blog/email-archiving-guide/"
  
- }
-//  let foot = document.querySelector("#footer") ;
-// foot.innerHTML = footer() 
+
+

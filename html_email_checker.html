@@ -8,13 +8,18 @@
     <script src="https://kit.fontawesome.com/a7c69f7ec4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Styles/crauser.css">
     <link rel="stylesheet" href="./Styles/html_email_checker.css">
+    <link rel="stylesheet" href="./Styles/footer.css">
+    <link rel="stylesheet" href="./Styles/signup3clicks.css">
+    <link rel="stylesheet" href="./Styles/navbar.css">
+
 </head>
 <body>
+    <div id="nav_container"></div>
     <div id="box1">
         <div id="text_box">
             <h1>Check The HTML & CSS Support For Top Email Clients</h1>
             <p>See how Gmail, Outlook, Apple Mail, and others will treat your emails. Fix the issues right away.</p>
-            <a href=""><button id="signup_button">Sign Up For Free</button></a>
+            <a href="./signup.html"><button id="signup_button">Sign Up For Free</button></a>
             <div id="text_box_small_img">
                 <img src="https://mailtrap.io/wp-content/uploads/2021/05/logo__gmail.svg" alt="">
                 <img src="https://mailtrap.io/wp-content/uploads/2021/05/logo__apple-mail.svg" alt="">
@@ -122,7 +127,7 @@
                     <p>Fix the outlined issues and send in the new copies of your emails into your Mailtrap inbox. Repeat until you’re happy with the results.</p>
                 </div>
             </div>
-            <a href=""><button id="signup_button">Sign Up For Free</button></a>
+            <a href="./signup.html"><button id="signup_button">Sign Up For Free</button></a>
 
         </div>
         <div id="box4_img_box">
@@ -155,20 +160,69 @@
             <div>
                 <img src="https://mailtrap.io/wp-content/uploads/2021/01/mailtrap-logo.svg" alt="">
                 <p>Automate email testing with a flexible and well-documented API. Save time and be the first to know when something goes wrong.</p>
-                <a href=""><button>Read More</button></a>
+                <a href="./mailtrap_API.html"><button>Read More</button></a>
             </div>
             <div>
                 <img src="https://mailtrap.io/wp-content/uploads/2021/05/img__fake-email-environment.svg" alt="">
                 <p>Test email sending from your project and view each email sent in your Mailtrap inbox. Never send a thing to the real users.</p>
-                <a href=""><button>Read More</button></a>
+                <a href="./fake_SMTP_Server.html"><button>Read More</button></a>
             </div>
             <div>
-                <img src="https://mailtrap.io/wp-content/uploads/2021/05/img__fake-email-environment.svg" alt="">
+                <img src="https://mailtrap.io/wp-content/uploads/2021/01/auomation-logo.svg" alt="">
                 <p>Build automated tests of your email sequences and include them in your testing suite. Verify each component of a message with Mailteap API.</p>
-                <a href=""><button>Read More</button></a>
+                <a href="./qa_automation.html"><button>Read More</button></a>
             </div>
         </div>
     </div>
+
+ <!---------------------------------------------------------------------->
+ <div class="createaccount">
+    <div class="signuppage">
+        <h3>Create Your Free Account</h3>
+        <div class="signheading">
+            <h2>In 3 Clicks</h2>
+        </div>
+        <div class="signup_btn">
+            <a href="#" style="text-decoration: none; color: #fff;" class=" crunch-button_3">
+                Sign Up Now
+            </a>
+        </div>
+    </div>
+    <div class="createaccount_img">
+        <img src="https://mailtrap.io/wp-content/uploads/2021/01/img__cta.svg" alt="email">
+    </div>
+</div>
+<!--------------------------------------------------------------------------------------->
+
+    <div id="footcont"></div>
 </body>
 </html>
-<script src="./Scripts/crauser.js"></script>
+<script src="./Scripts/html_email_checker.js"></script>
+<script type="module">
+
+    import footer from "./components/homepagefooter.js";
+  let container=document.getElementById("footcont");
+  container.innerHTML=footer();
+
+  import navbar from "./components/navbar.js"
+  let nav_container=document.getElementById("nav_container");
+  nav_container.innerHTML=navbar();
+
+
+</script>
+
+<script>
+    let us = JSON.parse(localStorage.getItem('user'));
+    console.log(us);
+    if(us.checkedIn){
+      setTimeout(function(){
+      // console.log();
+      document.getElementById('USNAME').innerHTML = null;
+      // document.getElementById('USNAME').style.border = '1px solid red';
+      document.getElementById('USNAME').style.marginTop = '-6px'
+      let h2 = document.createElement('h2');
+      h2.innerText = us.name;
+      document.getElementById('USNAME').append(h2);
+    }, 100);
+    }
+  </script>

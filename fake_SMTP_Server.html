@@ -6,14 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Styles/fake_SMTP_Server.css">
+    <script src="https://kit.fontawesome.com/a7c69f7ec4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Styles/crauser.css">
+    <link rel="stylesheet" href="./Styles/footer.css">
+   
+    <link rel="stylesheet" href="./Styles/signup3clicks.css">
+    <link rel="stylesheet" href="./Styles/navbar.css">
+    
 </head>
 <body>
     <!-- HTML Check Page -->
+
+    <div id="nav_container"></div>
     <div id="box1">
         <div id="text_box">
             <h1>Safe Email Testing With Mailtrap’s Fake SMTP Server</h1>
             <p>Test emails safely, with 5-minute setup, zero maintenance, and no risk of spamming real users</p>
-            <a href=""><button id="signup_button">Sign Up For Free</button></a>
+            <a href="./signup.html"><button id="signup_button">Sign Up For Free</button></a>
             <div id="text_box_small_img">
                 <img src="https://mailtrap.io/wp-content/uploads/2021/01/logo__rails.svg" alt="">
                 <img src="https://mailtrap.io/wp-content/uploads/2021/05/logo__java.svg" alt="">
@@ -122,7 +131,7 @@
                     <p>Preview the email, check its HTML, spam score or raw headers. Use Mailtrap API to do all of these automatically.</p>
                 </div>
             </div>
-            <a href=""><button id="signup_button">Sign Up For Free</button></a>
+            <a href="./signup.html"><button id="signup_button">Sign Up For Free</button></a>
 
         </div>
         <div id="box4_img_box">
@@ -136,11 +145,12 @@
     <!--------------------------------box 5------------------------------------------>
 
     <div id="parentCrauser">
-        <h1>From our #BestClientEver</h1>
+        <h2>From our #BestClientEver</h2>
         <div id="crauser">
-            <button id="reverse" onclick="reverse()"><i class='fas fa-angle-left'></i><</button>
-            <div id="detCont"></div>
-            <button id="forward" onclick="forward()"><i class='fas fa-angle-right'></i>></button>
+            <button id="reverse" onclick="reverse()"><i class='fas fa-angle-left'></i></button>
+            <div class="detCont" id="disp1"></div>
+            <div class="detCont" id="disp2"></div>
+            <button id="forward" onclick="forward()"><i class='fas fa-angle-right'></i></button>
         </div>
     </div>
 
@@ -151,21 +161,67 @@
             <div>
                 <img src="https://mailtrap.io/wp-content/uploads/2021/01/html-checkef.svg" alt="">
                 <p>Validate the HTML/CSS rules included in your emails template. Gauge the support across popular clients – on web, mobile, and desktop.</p>
-                <a href=""><button>Read More</button></a>
+                <a href="./html_email_checker.html"><button>Read More</button></a>
             </div>
             <div>
                 <img src="https://mailtrap.io/wp-content/uploads/2021/01/mailtrap-logo.svg" alt="">
                 <p>Automate email testing with a flexible and well-documented API. Save time and be the first to know when something goes wrong.</p>
-                <a href=""><button>Read More</button></a>
+                <a href="./mailtrap_API.html"><button>Read More</button></a>
             </div>
             <div>
                 <img src="https://mailtrap.io/wp-content/uploads/2021/01/auomation-logo.svg" alt="">
                 <p>Build automated tests of your email sequences and include them in your testing suite. Verify each component of a message with Mailteap API.</p>
-                <a href=""><button>Read More</button></a>
+                <a href="./qa_automation.html"><button>Read More</button></a>
             </div>
         </div>
     </div>
+     <!---------------------------------------------------------------------->
+     <div class="createaccount">
+        <div class="signuppage">
+            <h3>Create Your Free Account</h3>
+            <div class="signheading">
+                <h2>In 3 Clicks</h2>
+            </div>
+            <div class="signup_btn">
+                <a href="#" style="text-decoration: none; color: #fff;" class=" crunch-button_3">
+                    Sign Up Now
+                </a>
+            </div>
+        </div>
+        <div class="createaccount_img">
+            <img src="https://mailtrap.io/wp-content/uploads/2021/01/img__cta.svg" alt="email">
+        </div>
+    </div>
+  <!--------------------------------------------------------------------------------------->
+
+    <div id="footcont"></div>
 </body>
 </html>
 
 <script src="./Scripts/fake_SMTP_Server.js"></script>
+<script type="module">
+
+  import footer from "./components/homepagefooter.js";
+  let container=document.getElementById("footcont");
+  container.innerHTML=footer();
+
+  import navbar from "./components/navbar.js"
+  let nav_container=document.getElementById("nav_container");
+  nav_container.innerHTML=navbar();
+
+</script>
+<script>
+    let us = JSON.parse(localStorage.getItem('user'));
+    console.log(us);
+    if(us.checkedIn){
+      setTimeout(function(){
+      // console.log();
+      document.getElementById('USNAME').innerHTML = null;
+      // document.getElementById('USNAME').style.border = '1px solid red';
+      document.getElementById('USNAME').style.marginTop = '-6px'
+      let h2 = document.createElement('h2');
+      h2.innerText = us.name;
+      document.getElementById('USNAME').append(h2);
+    }, 100);
+    }
+  </script>

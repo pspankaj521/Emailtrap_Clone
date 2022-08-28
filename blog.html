@@ -7,11 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Styles/blog.css">
+
     <link rel="stylesheet" href="./Styles/footer.css">
+
+    <link rel="stylesheet" href="./Styles/navbar.css">
+    <link rel="stylesheet" href="../alleged-partner-6503/Styles/footer.css">
+
 </head>
 
 <body>
     <!-- Blog Page -->
+
    
     <div id="container" >  
   
@@ -199,6 +205,79 @@
     </div>
 </body>
 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+
+    
+    <nav class="menucard">
+        <div class="logoo">
+            <a  href="./index.html">
+                <img src="https://mailtrap.io/wp-content/uploads/2021/04/mailtrap-new-logo.svg" alt="logo">
+            </a>
+        </div>
+    <div class="list">
+    <ol>
+    
+        <li class="active"><a href="#">Email Testing</a>
+            <div class="submenu1">
+                <ol>
+                   <li><span><img src="https://mailtrap.io/wp-content/uploads/2021/06/qa_automation_icon_menu.svg" alt=""></span><a href="./qa_automation.html"><div class="h1">QA Automation</div></a><span ><div class="desc">Automation for Email Testing</div></span></li> 
+                   <li><span><img src="https://mailtrap.io/wp-content/uploads/2021/06/check_html_icon_menu.svg" alt=""></span><a href="./html_email_checker.html"><div class="h1">HTML Check</div></a><span ><div class="desc">Find HTML/CSS issue</div></span></li>
+                   <li><span><img src="https://mailtrap.io/wp-content/uploads/2021/06/fake_smtp_server_icon_menu.svg" alt=""></span><a href="./fake_SMTP_Server.html"><div class="h1">Fake SMPT Server</div></a><span ><div class="desc">Your own SMPT Server</div></span></li>
+                   <li><span><img src="https://mailtrap.io/wp-content/uploads/2021/06/api_icon_menu.svg" alt=""></span><a href="./mailtrap_API.html"><div class="h1">Mailtrap API</div></a><span ><div class="desc">Integrate with your Application</div></span> </li>
+                </ol>
+    
+            </div>
+        
+        
+        </li>
+        <li><a href="./email_API.html">Email API</a></li>
+        <li><a href="./pricing.html">Pricing</a></li>
+        <li class="active2"><a href="#">Resources</a>
+        <div class="submenu2">
+            <ol>
+                <li><span><img src="https://mailtrap.io/wp-content/uploads/2022/06/Transactional-Email-Sending_icon-09.svg" class="gmi" alt=""></span><a href="https://api-docs.mailtrap.io/?_ga=2.160690429.1795456216.1661406621-1800514393.1661406620#overview"><div class="h11">API</div></a><span ><div class="desc1">Integrate with existing resources</div></span></li> 
+                <li><span><img src="https://mailtrap.io/wp-content/uploads/2022/06/Transactional-Email-Sending_icon-08.svg" class="gmi" alt=""></span><a href="./casestudy.html"><div class="h11">Case Studies</div></a><span ><div class="desc1">Success stories of our customers</div></span></li>
+                <li><span><img src="https://mailtrap.io/wp-content/uploads/2022/06/Transactional-Email-Sending_icon-07.svg" class="gmi" alt=""></span><a href="./blog.html"><div class="h11">Blog</div></a><span ><div class="desc1">The best content about emails</div></span></li>
+                <li><span><img src="https://mailtrap.io/wp-content/uploads/2022/03/Transactional-Email-Sending_icon-06.svg" class="gmi" alt=""></span><a href="https://help.mailtrap.io/?_ga=2.132815950.1795456216.1661406621-1800514393.1661406620"><div class="h11">Help</div></a><span ><div class="desc1">How-to's and knowledge base</div></span></li>
+             </ol>
+        </div>
+        </li>
+        <div class="btn" id="USNAME">
+        <li><a href="./login.html"><div id="lg1" class="btn1"><h4>Login</h4></div></a></li>
+        <li><a href="./signup.html"><div id="signupbt" class="btn1" style="border: none;"><h4>Sign Up</h4></div></a></li>
+    </div>
+    </ol>
+    </div>
+    </nav>
+
+
+</body>
 </html>
 <script src="./Scripts/blog.js"  ></script>
+
+<script src="./Scripts/blog.js"></script>
+<script>
+    let us = JSON.parse(localStorage.getItem('user'));
+    console.log(us);
+    if(us.checkedIn){
+      setTimeout(function(){
+      // console.log();
+      document.getElementById('USNAME').innerHTML = null;
+      // document.getElementById('USNAME').style.border = '1px solid red';
+      document.getElementById('USNAME').style.marginTop = '-6px'
+      let h2 = document.createElement('h2');
+      h2.innerText = us.name;
+      document.getElementById('USNAME').append(h2);
+    }, 00);
+    }
+  </script>
 

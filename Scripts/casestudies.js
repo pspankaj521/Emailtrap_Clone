@@ -1,6 +1,6 @@
 // import footer from "../components/homepagefooter.js"
 alls() ;
-function software(){
+function softwares(){
 window.location.href = "software.html"
 
 }

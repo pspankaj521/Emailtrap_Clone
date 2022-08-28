@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Email API | Mailtrap</title>
+
+    <!-- All css linked -->
+    <link rel="stylesheet" href="./Styles/navbar.css">
     <link rel="stylesheet" href="./Styles/email_API.css" />
+    <link rel="stylesheet" href="./Styles/footer.css">
   </head>
   <body>
     <!-- Email API Page -->
+
+    <!-- Imported Navbar -->
+    <div id="navbar"></div>
 
     <!-- Sec-1 -->
     <div id="sec_1">
@@ -291,7 +298,49 @@
         </p>
       </div>
     </div>
+
+    <!-- Imported FOOTER -->
+    <div id="footer"></div>
   </body>
 </html>
 
+
+
+
+<!-- All scripts linked -->
+
+<script src="./Scripts/navbar.js"></script>
 <script src="./Scripts/email_API.js"></script>
+
+<script type="module">
+  import navbar from "./components/navbar.js"
+  console.log(navbar);
+
+  let nav = document.getElementById("navbar");
+  nav.innerHTML = navbar();
+
+
+  import footer from "./components/homepagefooter.js"
+  console.log(navbar);
+
+  let foot = document.getElementById("footer");
+  foot.innerHTML = footer();
+</script>
+
+<script src="./Scripts/footer.js"></script>
+
+<script>
+  let us = JSON.parse(localStorage.getItem('user'));
+  console.log(us);
+  if(us.checkedIn){
+    setTimeout(function(){
+    // console.log();
+    document.getElementById('USNAME').innerHTML = null;
+    // document.getElementById('USNAME').style.border = '1px solid red';
+    document.getElementById('USNAME').style.marginTop = '-6px'
+    let h2 = document.createElement('h2');
+    h2.innerText = us.name;
+    document.getElementById('USNAME').append(h2);
+  }, 100);
+  }
+</script>

@@ -7,15 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Styles/qa_automation.css">
+    <script src="https://kit.fontawesome.com/a7c69f7ec4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Styles/crauser.css">
+    <link rel="stylesheet" href="./Styles/footer.css">
+    <link rel="stylesheet" href="./Styles/signup3clicks.css">
+    <link rel="stylesheet" href="./Styles/navbar.css">
+
+
 </head>
 
 <body>
-
+    <div id="nav_container"></div>
     <div id="box1">
         <div id="text_box">
             <h1>Powerful Automation For Testing Your Email Sequences</h1>
             <p>Cover all your testing scenarios with Mailtrap’s well-documented API.</p>
-            <a href=""><button id="signup_button">Sign Up For Free</button></a>
+            <a href="./signup.html"><button id="signup_button">Sign Up For Free</button></a>
             <div id="text_box_small_img">
                 <img src="https://mailtrap.io/wp-content/uploads/2021/06/Selenium-110x33.png" alt="">
                 <img src="https://mailtrap.io/wp-content/uploads/2021/06/Cucumber.svg" alt="">
@@ -124,7 +131,7 @@
                         and others.</p>
                 </div>
             </div>
-            <a href=""><button id="signup_button">Sign Up For Free</button></a>
+            <a href="./signup.html"><button id="signup_button">Sign Up For Free</button></a>
 
         </div>
         <div id="box4_img_box">
@@ -138,11 +145,12 @@
     <!--------------------------------box 5------------------------------------------>
 
     <div id="parentCrauser">
-        <h1>From our #BestClientEver</h1>
+        <h2>From our #BestClientEver</h2>
         <div id="crauser">
-            <button id="reverse" onclick="reverse()"><i class='fas fa-angle-left'></i><</button>
-            <div id="detCont"></div>
-            <button id="forward" onclick="forward()"><i class='fas fa-angle-right'></i>></button>
+            <button id="reverse" onclick="reverse()"><i class='fas fa-angle-left'></i></button>
+            <div class="detCont" id="disp1"></div>
+            <div class="detCont" id="disp2"></div>
+            <button id="forward" onclick="forward()"><i class='fas fa-angle-right'></i></button>
         </div>
     </div>
     <!--------------------------------box 6------------------------------------------>
@@ -151,22 +159,73 @@
         <div id="box6_inner">
             <div>
                 <img src="https://mailtrap.io/wp-content/uploads/2021/01/html-checkef.svg" alt="">
-                <p>Validate the HTML/CSS rules included in your emails template. Gauge the support across popular clients – on web, mobile, and desktop.</p>
-                <a href=""><button>Read More</button></a>
+                <p>Validate the HTML/CSS rules included in your emails template. Gauge the support across popular
+                    clients – on web, mobile, and desktop.</p>
+                <a href="./html_email_checker.html"><button>Read More</button></a>
             </div>
             <div>
                 <img src="https://mailtrap.io/wp-content/uploads/2021/01/mailtrap-logo.svg" alt="">
-                <p>Cover your code with automated tests and validate each message sent dev, and staging. Verify emails sent from live sites as well.</p>
-                <a href=""><button>Read More</button></a>
+                <p>Cover your code with automated tests and validate each message sent dev, and staging. Verify emails
+                    sent from live sites as well.</p>
+                <a href="./qa_automation.html"><button>Read More</button></a>
             </div>
             <div>
                 <img src="https://mailtrap.io/wp-content/uploads/2021/05/img__fake-email-environment.svg" alt="">
-                <p>Test email sending from your project and view each email sent in your Mailtrap inbox. Never send a thing to the real users.</p>
-                <a href=""><button>Read More</button></a>
+                <p>Test email sending from your project and view each email sent in your Mailtrap inbox. Never send a
+                    thing to the real users.</p>
+                <a href="./fake_SMTP_Server.html"><button>Read More</button></a>
             </div>
         </div>
     </div>
+
+    <!---------------------------------------------------------------------->
+    <div class="createaccount">
+        <div class="signuppage">
+            <h3>Create Your Free Account</h3>
+            <div class="signheading">
+                <h2>In 3 Clicks</h2>
+            </div>
+            <div class="signup_btn">
+                <a href="#" style="text-decoration: none; color: #fff;" class=" crunch-button_3">
+                    Sign Up Now
+                </a>
+            </div>
+        </div>
+        <div class="createaccount_img">
+            <img src="https://mailtrap.io/wp-content/uploads/2021/01/img__cta.svg" alt="email">
+        </div>
+    </div>
+  <!--------------------------------------------------------------------------------------->
+    <div id="footcont"></div>
 </body>
 
 </html>
 <script src="./Scripts/qa_automation.js"></script>
+<script type="module">
+
+    import footer from "./components/homepagefooter.js";
+    let container = document.getElementById("footcont");
+    container.innerHTML = footer();
+
+    import navbar from "./components/navbar.js"
+  let nav_container=document.getElementById("nav_container");
+  nav_container.innerHTML=navbar();
+
+
+</script>
+
+<script>
+    let us = JSON.parse(localStorage.getItem('user'));
+    console.log(us);
+    if(us.checkedIn){
+      setTimeout(function(){
+      // console.log();
+      document.getElementById('USNAME').innerHTML = null;
+      // document.getElementById('USNAME').style.border = '1px solid red';
+      document.getElementById('USNAME').style.marginTop = '-6px'
+      let h2 = document.createElement('h2');
+      h2.innerText = us.name;
+      document.getElementById('USNAME').append(h2);
+    },100);
+    }
+  </script>
