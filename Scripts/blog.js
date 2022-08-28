@@ -1,3 +1,4 @@
+
 function  blog(){
     window.location.href ="https://mailtrap.io/blog/category/email-dev-and-infrastructure/" 
 }
@@ -27,4 +28,5 @@ function guide(){
  }function guides(){
     window.location.href = "https://mailtrap.io/blog/email-archiving-guide/"
  
- }
+
+

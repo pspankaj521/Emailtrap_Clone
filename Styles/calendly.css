@@ -224,6 +224,8 @@
    color: white;    
 }
 
+
+
 #cont2>div:nth-child(3)>div:nth-child(1)>h2{
   font-size: 30px;
   margin-top: 20px;
@@ -241,3 +243,4 @@
     #footer{
         margin-top: 100px;
     }
+

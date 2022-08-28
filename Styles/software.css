@@ -24,10 +24,13 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+
+
 #cont2>div:nth-child(2){
     margin-top: 100px;
     /* background-color: #f9f9f7; */
 }
+
 #cont2>div>div>p{
     line-height: 24px;
 }
@@ -44,6 +47,7 @@
 #cont2>div:first-child>div:last-child>p>a{
     text-decoration: none;
     color: blue;
+
 }
 #cont2>div:nth-child(2)>div:first-child {
   width: 80%;
@@ -98,15 +102,24 @@
     margin-left: 300px;
 }
 #cont2>div:nth-child(2)>div:nth-child(2)>h2{
+
+  font-size: 30px
+}
+#cont2>div:nth-child(2)>div:nth-child(2)>h4{
+    margin-top: -10px;
+
   font-size: 30px;
   margin-top: 20px;
 }
 #cont2>div:nth-child(2)>div:nth-child(2)>h4{
     margin-top: 15px;
+
   }
   #cont2>div:nth-child(2)>div:nth-child(2)>p{
     line-height: 24px;
   }
+
+
   #cont2>div:nth-child(3)>div:nth-child(1)>h2{
     font-size: 30px;
     margin-top: 20px;
@@ -114,6 +127,7 @@
   #cont2>div:nth-child(3)>div:nth-child(1)>h4{
       margin-top: 30px;
     }
+
 
 #cont2>div:nth-child(3)>div:nth-child(1){
     margin-top: 250px;
@@ -157,9 +171,16 @@
   #cont2>div:nth-child(4)>div:nth-child(2)>p{
     line-height: 24px;
   }
-  /* #cont2>div:first-child>div:first-child>ul{
-   color: green;
-  } */
+
+#cont2>div:first-child>div:first-child>li{
+    color: blue;
+}
+
+#cont2>div:first-child>div:first-child>li>a{
+    color:  green;
+    text-decoration: none;
+}
+
 #cont2>div:first-child>div:first-child>li>a{
     color: blue;
     margin-top: 5px;
@@ -183,6 +204,7 @@
 #cont2>div:first-child>div:first-child>li{
    color: green;
 }
+
 
 #cont2>div:first-child>div:first-child>li>a:hover{
     text-decoration: dashed;
@@ -218,11 +240,29 @@
     margin-left: 10px;
 }
 #cont3>div>p{
+
+    margin-top: -20px;
+
     margin-top: 10px;
+
     font-size: 20px;
    text-align: center;
    color: white;    
 }
+
+#nice{
+    width: auto;
+    height:auto;
+    background-color: green;
+    border-radius: 70% 70% ;
+}
+#nice>img{
+   
+}
+#footer{
+    margin-top: 100px;
+}
+
 
 #cont2>div:nth-child(3)>div:nth-child(1)>h2{
   font-size: 30px;
@@ -238,6 +278,4 @@
   #cont2>div:nth-child(4)>div:nth-child(2)>h4{
       margin-top: 15px;
     }
-    #footer{
-        margin-top: 100px;
-    }
+   

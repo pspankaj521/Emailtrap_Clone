@@ -1,20 +1,34 @@
+
+
+ #container{
+
 #container{
+
     width: 80%;
     margin: auto;
     }
     
+
+    #cont{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
     
     #cont{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin-top: 100px;
+
     }
     #cont>input{
         border-radius: 5px;
         width: 400px;
         padding-left: 10px;
         font-size: 15px;
+
+
         border: 1px solid;
+
     }
     #cont2{
         background-color: #f9c273 ;
@@ -29,7 +43,10 @@
         width: 65%;
         margin-left: 40px;
        font-size: 30px;
+
+
        margin-top: 20px;
+
     
     }
     #cont2 >div:last-child{
@@ -43,9 +60,10 @@
      /* border: 1px solid; */
      margin: 0  auto;
      margin-top:  30px ;
-     
-     
+ 
+      }
     }
+
     #cont3{
         margin-top: 50px;
         display: grid;
@@ -54,7 +72,11 @@
     
      #cont3>div:first-child>img{
     width: 20%;
+
+    margin-top: 20px;
+
     /* margin-top: 20px; */
+
     margin-left: 60px;
     border-radius: 50px;
          
@@ -148,10 +170,11 @@
     }#cont4>div>div:nth-child(3)>div:first-child{
         background-color: skyblue ;
     }
-    /* #cont4>div>div>div:nth-child(2){
-        margin-top: -20px;
-        border: 1px solid;
-    } */
+
+ 
+
+  
+
     #cont5{
         margin-top: 50px;
     }
@@ -228,6 +251,7 @@
     
         margin-top: -10px;
     }
+
     #cont4>div>div>h2{
         margin-top: 20px;
     }
