@@ -1,4 +1,4 @@
-✨Emailtrap_Clone✨
+<h1 align="center">✨Emailtrap_Clone✨ <h1 align="center">
 
 Email Delivery Platform for individuals and businesses to test, send and control email infrastructure in one place.
 ---
